@@ -1,0 +1,50 @@
+pipeline {
+    agent any
+    
+    environment {
+        CI = 'true'
+        NODE_ENV = 'test'
+    }
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+        
+        stage('Install Dependencies') {
+            steps {
+                script {
+                    bat 'npm ci'
+                    bat 'npx playwright install chromium --with-deps'
+                }
+            }
+        }
+        
+        stage('Run OrangeHRM Test') {
+            steps {
+                script {
+                    bat 'npx playwright test "tests/Chapter01/02_OrangeHrm.spec.ts" --project="Google Chrome" --reporter=list,html,junit'
+                }
+            }
+        }
+    }
+    
+    post {
+        always {
+            publishHTML([
+                allowMissing: false,
+                alwaysLinkToLastBuild: true,
+                keepAll: true,
+                reportDir: 'playwright-report',
+                reportFiles: 'index.html',
+                reportName: 'OrangeHRM Test Report'
+            ])
+            
+            publishTestResults testResultsPattern: 'junit-TestReport.xml'
+            
+            archiveArtifacts artifacts: 'playwright-report/**, test-results/**, *.json, *.xml', allowEmptyArchive: true
+        }
+    }
+}

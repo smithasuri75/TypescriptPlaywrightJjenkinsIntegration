@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:orangehrm": "playwright test tests/Chapter01/02_OrangeHrm.spec.ts",
+    "test:ci": "playwright test --project='Google Chrome'",
+    "test:orangehrm:ci": "playwright test tests/Chapter01/02_OrangeHrm.spec.ts --project='Google Chrome'",
+    "report": "playwright show-report",
+    "install-browsers": "playwright install --with-deps"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

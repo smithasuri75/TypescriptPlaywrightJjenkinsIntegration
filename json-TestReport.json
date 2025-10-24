@@ -2,7 +2,7 @@
   "config": {
     "configFile": "C:\\Smitha\\Projects\\PlaywrightTypescript\\playwright.config.ts",
     "rootDir": "C:/Smitha/Projects/PlaywrightTypescript/tests",
-    "forbidOnly": false,
+    "forbidOnly": true,
     "fullyParallel": true,
     "globalSetup": null,
     "globalTeardown": null,
@@ -10,7 +10,12 @@
     "grep": {},
     "grepInvert": null,
     "maxFailures": 0,
-    "metadata": {},
+    "metadata": {
+      "ci": {
+        "commitHref": "http://localhost:8080/job/PlaywrightGithub/2/"
+      },
+      "actualWorkers": 1
+    },
     "preserveOutput": "always",
     "reporter": [
       [
@@ -47,8 +52,13 @@
       {
         "outputDir": "C:/Smitha/Projects/PlaywrightTypescript/test-results",
         "repeatEach": 1,
-        "retries": 0,
-        "metadata": {},
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "http://localhost:8080/job/PlaywrightGithub/2/"
+          },
+          "actualWorkers": 1
+        },
         "id": "Google Chrome",
         "name": "Google Chrome",
         "testDir": "C:/Smitha/Projects/PlaywrightTypescript/tests",
@@ -56,29 +66,135 @@
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
         ],
-        "timeout": 30000
+        "timeout": 120000
       }
     ],
     "shard": null,
     "updateSnapshots": "missing",
     "updateSourceMethod": "patch",
     "version": "1.56.0",
-    "workers": 10,
+    "workers": 1,
     "webServer": null
   },
-  "suites": [],
-  "errors": [
+  "suites": [
     {
-      "message": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments.",
-      "stack": "Error: No tests found.\nMake sure that arguments are regular expressions matching test files.\nYou may need to escape symbols like \"$\" or \"*\" and quote the arguments."
+      "title": "Chapter01\\02_OrangeHrm.spec.ts",
+      "file": "Chapter01/02_OrangeHrm.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Orange Hrm login",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 354,
+                  "error": {
+                    "message": "Error: browserContext.newPage: Executable doesn't exist at C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\ms-playwright\\ffmpeg-1011\\ffmpeg-win64.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                    "stack": "Error: browserContext.newPage: Executable doesn't exist at C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\ms-playwright\\ffmpeg-1011\\ffmpeg-win64.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: browserContext.newPage: Executable doesn't exist at C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\ms-playwright\\ffmpeg-1011\\ffmpeg-win64.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-24T03:45:31.724Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Smitha\\Projects\\PlaywrightTypescript\\test-results\\Chapter01-02_OrangeHrm-Orange-Hrm-login-Google-Chrome\\trace.zip"
+                    }
+                  ]
+                },
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 238,
+                  "error": {
+                    "message": "Error: browserContext.newPage: Executable doesn't exist at C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\ms-playwright\\ffmpeg-1011\\ffmpeg-win64.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                    "stack": "Error: browserContext.newPage: Executable doesn't exist at C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\ms-playwright\\ffmpeg-1011\\ffmpeg-win64.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: browserContext.newPage: Executable doesn't exist at C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\ms-playwright\\ffmpeg-1011\\ffmpeg-win64.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2025-10-24T03:45:33.990Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Smitha\\Projects\\PlaywrightTypescript\\test-results\\Chapter01-02_OrangeHrm-Orange-Hrm-login-Google-Chrome-retry1\\trace.zip"
+                    }
+                  ]
+                },
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 239,
+                  "error": {
+                    "message": "Error: browserContext.newPage: Executable doesn't exist at C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\ms-playwright\\ffmpeg-1011\\ffmpeg-win64.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                    "stack": "Error: browserContext.newPage: Executable doesn't exist at C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\ms-playwright\\ffmpeg-1011\\ffmpeg-win64.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: browserContext.newPage: Executable doesn't exist at C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\ms-playwright\\ffmpeg-1011\\ffmpeg-win64.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 2,
+                  "startTime": "2025-10-24T03:45:35.536Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Smitha\\Projects\\PlaywrightTypescript\\test-results\\Chapter01-02_OrangeHrm-Orange-Hrm-login-Google-Chrome-retry2\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "738fed6c3cc873d3790c-9613a4b4709d94d73c99",
+          "file": "Chapter01/02_OrangeHrm.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
     }
   ],
+  "errors": [],
   "stats": {
-    "startTime": "2025-10-24T02:31:15.194Z",
-    "duration": 31.017999999999915,
+    "startTime": "2025-10-24T03:45:30.776Z",
+    "duration": 5614.53,
     "expected": 0,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 1,
     "flaky": 0
   }
 }

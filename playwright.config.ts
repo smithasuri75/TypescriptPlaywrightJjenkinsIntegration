@@ -47,13 +47,13 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on',
-    headless: false, 
+    headless: process.env.CI ? true : false, // Headless in CI, headed locally
     screenshot: 'on',
     testIdAttribute: 'data-tab-item',
     actionTimeout: 10000,
     video: 'on',
     launchOptions: {
-      args: ['--start-maximized'],
+      args: process.env.CI ? ['--no-sandbox', '--disable-setuid-sandbox'] : ['--start-maximized'],
     },
   
     
