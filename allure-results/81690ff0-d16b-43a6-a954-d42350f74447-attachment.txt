@@ -1,0 +1,50 @@
+Error while reading contact values and clicking checkboxes: locator.check: Error: Not a checkbox or radio button
+Call log:
+  - waiting for locator('//table[@id=\'contactList\']/tbody/tr/following-sibling::tr/descendant::td[1]').first()
+    - locator resolved to <td>…</td>
+
+    at C:\Smitha\Projects\PlaywrightTypescript\tests\Chapter07\accountRegistration.spec.ts:90:39 {
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Smitha\\Projects\\PlaywrightTypescript\\tests\\Chapter07\\accountRegistration.spec.ts',
+      line: 90,
+      column: 39
+    },
+    category: 'pw:api',
+    title: "Check locator('//table[@id=\\'contactList\\']/tbody/tr/following-sibling::tr/descendant::td[1]').first()",
+    apiName: 'locator.check',
+    params: {
+      selector: "//table[@id='contactList']/tbody/tr/following-sibling::tr/descendant::td[1] >> nth=0",
+      strict: true,
+      timeout: 10000
+    },
+    group: undefined,
+    stepId: 'pw:api@41',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@41',
+      _title: "Check locator('//table[@id=\\'contactList\\']/tbody/tr/following-sibling::tr/descendant::td[1]').first()",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1761258050876,
+    error: {
+      message: 'Error: locator.check: Error: Not a checkbox or radio button\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//table[@id=\\'contactList\\']/tbody/tr/following-sibling::tr/descendant::td[1]').first()\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <td>…</td>\x1B[22m\n',
+      stack: 'Error: locator.check: Error: Not a checkbox or radio button\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//table[@id=\\'contactList\\']/tbody/tr/following-sibling::tr/descendant::td[1]').first()\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <td>…</td>\x1B[22m\n' +
+        '\n' +
+        '    at C:\\Smitha\\Projects\\PlaywrightTypescript\\tests\\Chapter07\\accountRegistration.spec.ts:90:39',
+      cause: undefined
+    }
+  }
+}

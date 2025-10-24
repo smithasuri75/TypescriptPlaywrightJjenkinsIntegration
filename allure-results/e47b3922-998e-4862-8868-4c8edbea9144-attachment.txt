@@ -1,0 +1,7 @@
+count is : 6
+text is : PlaywrightTutorialFullCourse
+text is : PostmanCollectionsByTestersTalk
+text is : PlaywrightAPITestingTutorial
+text is : RestAssuredAPITestingFramework
+text is : PlaywrightTypeScriptTutorialFullCourse
+text is : CypressTutorialFullCourse

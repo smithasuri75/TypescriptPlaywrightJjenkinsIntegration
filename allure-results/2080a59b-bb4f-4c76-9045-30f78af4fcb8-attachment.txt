@@ -1,0 +1,13 @@
+Found 6 contact name cells
+Contact Name [1]: Maria Anders
+Clicked checkbox for contact: Maria Anders
+Contact Name [2]: Francisco Chang
+Clicked checkbox for contact: Francisco Chang
+Contact Name [3]: Roland Mendel
+Clicked checkbox for contact: Roland Mendel
+Contact Name [4]: Helen Bennett
+Clicked checkbox for contact: Helen Bennett
+Contact Name [5]: Yoshi Tannamuri
+Clicked checkbox for contact: Yoshi Tannamuri
+Contact Name [6]: Giovanni Rovelli
+Clicked checkbox for contact: Giovanni Rovelli

@@ -1,0 +1,8 @@
+jQuery UI Droppable page loaded successfully
+Draggable and droppable elements are visible
+Initial drop target text verified: "Drop here"
+Drop target is in initial state (not highlighted)
+Drag and drop operation completed
+Drop target text changed to "Dropped!" - drag and drop successful
+Drop target is now highlighted after successful drop
+Draggable element is still visible after drop

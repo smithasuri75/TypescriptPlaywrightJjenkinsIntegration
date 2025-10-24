@@ -1,0 +1,50 @@
+Excel Data: [
+  {
+    "Username": "Admin",
+    "Password": "admin123",
+    "Role": "Admin",
+    "Status": "Active"
+  },
+  {
+    "Username": "user1",
+    "Password": "pass123",
+    "Role": "User",
+    "Status": "Active"
+  },
+  {
+    "Username": "user2",
+    "Password": "pass456",
+    "Role": "Manager",
+    "Status": "Inactive"
+  },
+  {
+    "Username": "user3",
+    "Password": "pass789",
+    "Role": "User",
+    "Status": "Active"
+  }
+]
+Row 1: {
+  Username: 'Admin',
+  Password: 'admin123',
+  Role: 'Admin',
+  Status: 'Active'
+}
+Row 2: {
+  Username: 'user1',
+  Password: 'pass123',
+  Role: 'User',
+  Status: 'Active'
+}
+Row 3: {
+  Username: 'user2',
+  Password: 'pass456',
+  Role: 'Manager',
+  Status: 'Inactive'
+}
+Row 4: {
+  Username: 'user3',
+  Password: 'pass789',
+  Role: 'User',
+  Status: 'Active'
+}

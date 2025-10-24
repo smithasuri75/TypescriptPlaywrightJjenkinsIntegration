@@ -1,0 +1,6 @@
+repo name is : PlaywrightTutorialFullCourse
+repo name is : PostmanCollectionsByTestersTalk
+repo name is : PlaywrightAPITestingTutorial
+repo name is : RestAssuredAPITestingFramework
+repo name is : PlaywrightTypeScriptTutorialFullCourse
+repo name is : CypressTutorialFullCourse

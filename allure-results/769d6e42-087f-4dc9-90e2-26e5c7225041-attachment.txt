@@ -1,0 +1,33 @@
+Found 6 rows with checkboxes
+Contact 1: "Maria Anders Germany 5000 Click" - Currently checked: false
+Contact 2: "Francisco Chang Mexico 2000Click" - Currently checked: false
+Contact 3: "Roland Mendel Austria7000Click" - Currently checked: false
+Contact 4: "Helen Bennett UK3000Click" - Currently checked: false
+Contact 5: "Yoshi Tannamuri Canada5000Click" - Currently checked: false
+Contact 6: "Giovanni Rovelli Italy1000 Click" - Currently checked: false
+
+--- Starting to click checkboxes for all contacts ---
+
+✓ Checked checkbox for: "Maria Anders Germany 5000 Click"
+  → Verified: "Maria Anders Germany 5000 Click" is now checked
+✓ Checked checkbox for: "Francisco Chang Mexico 2000Click"
+  → Verified: "Francisco Chang Mexico 2000Click" is now checked
+✓ Checked checkbox for: "Roland Mendel Austria7000Click"
+  → Verified: "Roland Mendel Austria7000Click" is now checked
+✓ Checked checkbox for: "Helen Bennett UK3000Click"
+  → Verified: "Helen Bennett UK3000Click" is now checked
+✓ Checked checkbox for: "Yoshi Tannamuri Canada5000Click"
+  → Verified: "Yoshi Tannamuri Canada5000Click" is now checked
+✓ Checked checkbox for: "Giovanni Rovelli Italy1000 Click"
+  → Verified: "Giovanni Rovelli Italy1000 Click" is now checked
+
+--- Verification: Checking final state of all checkboxes ---
+
+Final state - "Maria Anders Germany 5000 Click": ✓ Checked
+Final state - "Francisco Chang Mexico 2000Click": ✓ Checked
+Final state - "Roland Mendel Austria7000Click": ✓ Checked
+Final state - "Helen Bennett UK3000Click": ✓ Checked
+Final state - "Yoshi Tannamuri Canada5000Click": ✓ Checked
+Final state - "Giovanni Rovelli Italy1000 Click": ✓ Checked
+
+🎉 Successfully processed 6 contacts and verified all checkboxes are checked!

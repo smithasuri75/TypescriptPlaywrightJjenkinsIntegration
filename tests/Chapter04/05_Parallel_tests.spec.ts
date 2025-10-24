@@ -1,0 +1,28 @@
+import { test, expect } from '@playwright/test'
+
+test('Timeout in Playwright', async ({ page }) => {
+    expect(true).toBe(true);
+
+});
+
+test('Timeout in Playwright 2', async ({ page }) => {
+
+    expect(true).toBe(true);
+
+});
+
+test('Timeout in Playwright 3', async ({ page }) => {
+
+    expect(true).toBe(true);
+});
+
+
+test('Timeout in Playwright 4', async ({ page }) => {
+
+    expect(true).toBe(true);
+});
+
+test('Timeout in Playwright 5', async ({ page }) => {
+
+    expect(true).toBe(true);
+});  

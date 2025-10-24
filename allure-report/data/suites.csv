@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","363","Timeout in Playwright 5","Google Chrome","Thu Oct 16 16:15:00 PDT 2025","passed","Thu Oct 16 16:15:01 PDT 2025","","Chapter04\05_Parallel_tests.spec.ts","",""
+"","1152","Timeout in Playwright","Google Chrome","Thu Oct 16 16:14:59 PDT 2025","passed","Thu Oct 16 16:15:00 PDT 2025","","Chapter04\05_Parallel_tests.spec.ts","",""
+"","3624","Orange Hrm login","Google Chrome","Thu Oct 16 16:17:10 PDT 2025","passed","Thu Oct 16 16:17:14 PDT 2025","","Chapter01\02_OrangeHrm.spec.ts","",""
+"","1290","Timeout in Playwright 2","Google Chrome","Thu Oct 16 16:14:59 PDT 2025","passed","Thu Oct 16 16:15:00 PDT 2025","","Chapter04\05_Parallel_tests.spec.ts","",""
+"","1337","Timeout in Playwright 4","Google Chrome","Thu Oct 16 16:14:59 PDT 2025","passed","Thu Oct 16 16:15:00 PDT 2025","","Chapter04\05_Parallel_tests.spec.ts","",""
+"","796","Timeout in Playwright 3","Google Chrome","Thu Oct 16 16:14:59 PDT 2025","passed","Thu Oct 16 16:15:00 PDT 2025","","Chapter04\05_Parallel_tests.spec.ts","",""

@@ -1,0 +1,103 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [ref=e9] [cursor=pointer]:
+          - generic [ref=e12]:
+            - img
+        - link "YouTube Home" [ref=e14] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e19]:
+            - img
+        - button "Skip navigation" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: Skip navigation
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - generic [ref=e35]:
+                - img
+              - combobox "Search" [expanded] [active] [ref=e36]: Testers Talk api testing
+            - button "Clear search query" [ref=e38] [cursor=pointer]:
+              - generic [ref=e41]:
+                - img
+          - button "Search" [ref=e45] [cursor=pointer]:
+            - generic [ref=e48]:
+              - img
+          - listbox [ref=e49]:
+            - option "testers talk api testing" [ref=e50]:
+              - generic [ref=e53]:
+                - img
+              - button "testers talk api testing" [ref=e55]
+            - option "real time api testing with postman" [ref=e56]:
+              - generic [ref=e59]:
+                - img
+              - button "real time api testing with postman" [ref=e61]
+            - option "api testing with restsharp" [ref=e62]:
+              - generic [ref=e65]:
+                - img
+              - button "api testing with restsharp" [ref=e67]
+            - option "testing rest api with postman" [ref=e68]:
+              - generic [ref=e71]:
+                - img
+              - button "testing rest api with postman" [ref=e73]
+            - option "testing apis with postman" [ref=e74]:
+              - generic [ref=e77]:
+                - img
+              - button "testing apis with postman" [ref=e79]
+            - button "Report search predictions" [ref=e80] [cursor=pointer]
+        - generic [ref=e82]:
+          - button "Search with your voice" [ref=e84] [cursor=pointer]:
+            - generic [ref=e88]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e93]:
+        - button "Settings" [ref=e98] [cursor=pointer]:
+          - generic [ref=e101]:
+            - img
+        - link "Sign in" [ref=e104] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620
+          - generic [ref=e108]:
+            - img
+          - generic [ref=e109]: Sign in
+  - navigation [ref=e113]:
+    - generic [ref=e114]:
+      - tab "Home" [selected] [ref=e115]:
+        - link "Home" [ref=e116] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e119]:
+            - img
+          - generic [ref=e120]: Home
+      - tab "Shorts" [ref=e121]:
+        - generic "Shorts" [ref=e122] [cursor=pointer]:
+          - generic [ref=e125]:
+            - img
+          - generic [ref=e126]: Shorts
+      - tab "Subscriptions" [ref=e127]:
+        - link "Subscriptions" [ref=e128] [cursor=pointer]:
+          - /url: /feed/subscriptions
+          - generic [ref=e131]:
+            - img
+          - generic [ref=e132]: Subscriptions
+      - tab "You" [ref=e133]:
+        - link "You" [ref=e134] [cursor=pointer]:
+          - /url: /feed/you
+          - generic [ref=e137]:
+            - img
+          - generic [ref=e138]: You
+      - tab "History" [ref=e139]:
+        - link "History" [ref=e140] [cursor=pointer]:
+          - /url: /feed/history
+          - generic [ref=e143]:
+            - img
+          - generic [ref=e144]: History
+  - generic [ref=e145]:
+    - main [ref=e146]:
+      - generic [ref=e156]:
+        - generic [ref=e157]: Try searching to get started
+        - generic [ref=e158]: Start watching videos to help us build a feed of videos you'll love.
+    - text: •
+```

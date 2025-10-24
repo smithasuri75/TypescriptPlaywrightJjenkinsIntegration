@@ -1,0 +1,18 @@
+Total contacts found: 17
+Found 16 contact name cells
+Contact 1: Maria Anders
+Contact 2: Francisco Chang
+Contact 3: Roland Mendel
+Contact 4: Helen Bennett
+Contact 5: Yoshi Tannamuri
+Contact 6: Giovanni Rovelli
+Contact 7: 
+Contact 8: 
+Contact 9: 
+Contact 10: 
+Contact 11: 
+Contact 12: 
+Contact 13: 
+Contact 14: 
+Contact 15: 
+Contact 16: 

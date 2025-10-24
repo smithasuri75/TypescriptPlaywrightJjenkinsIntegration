@@ -1,0 +1,20 @@
+repo name is : PlaywrightTutorialFullCourse
+repo name is : PostmanCollectionsByTestersTalk
+repo name is : PlaywrightAPITestingTutorial
+repo name is : RestAssuredAPITestingFramework
+repo name is : PlaywrightTypeScriptTutorialFullCourse
+repo name is : CypressTutorialFullCourse
+********************
+repo name using for loop is : PlaywrightTutorialFullCourse
+repo name using for loop is : PostmanCollectionsByTestersTalk
+repo name using for loop is : PlaywrightAPITestingTutorial
+repo name using for loop is : RestAssuredAPITestingFramework
+repo name using for loop is : PlaywrightTypeScriptTutorialFullCourse
+repo name using for loop is : CypressTutorialFullCourse
+********************
+repo name using for loop and locator is : PlaywrightTutorialFullCourse
+repo name using for loop and locator is : PostmanCollectionsByTestersTalk
+repo name using for loop and locator is : PlaywrightAPITestingTutorial
+repo name using for loop and locator is : RestAssuredAPITestingFramework
+repo name using for loop and locator is : PlaywrightTypeScriptTutorialFullCourse
+repo name using for loop and locator is : CypressTutorialFullCourse

@@ -1,0 +1,68 @@
+Error while reading contact values and clicking checkboxes: locator.innerText: Error: strict mode violation: locator('//table[@id=\'contactList\']/tbody/tr/following-sibling::tr/descendant::td[2]') resolved to 6 elements:
+    1) <td>Maria Anders</td> aka getByRole('cell', { name: 'Maria Anders' })
+    2) <td>Francisco Chang</td> aka getByRole('cell', { name: 'Francisco Chang' })
+    3) <td>Roland Mendel</td> aka getByRole('cell', { name: 'Roland Mendel' })
+    4) <td>Helen Bennett</td> aka getByRole('cell', { name: 'Helen Bennett' })
+    5) <td>Yoshi Tannamuri</td> aka getByRole('cell', { name: 'Yoshi Tannamuri' })
+    6) <td>Giovanni Rovelli</td> aka getByRole('cell', { name: 'Giovanni Rovelli' })
+
+Call log:
+  - waiting for locator('//table[@id=\'contactList\']/tbody/tr/following-sibling::tr/descendant::td[2]')
+
+    at C:\Smitha\Projects\PlaywrightTypescript\tests\Chapter07\accountRegistration.spec.ts:85:56 {
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Smitha\\Projects\\PlaywrightTypescript\\tests\\Chapter07\\accountRegistration.spec.ts',
+      line: 85,
+      column: 56
+    },
+    category: 'pw:api',
+    title: "Get inner text locator('//table[@id=\\'contactList\\']/tbody/tr/following-sibling::tr/descendant::td[2]')",
+    apiName: 'locator.innerText',
+    params: {
+      selector: "//table[@id='contactList']/tbody/tr/following-sibling::tr/descendant::td[2]",
+      strict: true,
+      timeout: 10000
+    },
+    group: 'getter',
+    stepId: 'pw:api@39',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@39',
+      _title: "Get inner text locator('//table[@id=\\'contactList\\']/tbody/tr/following-sibling::tr/descendant::td[2]')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1761257402137,
+    error: {
+      message: "Error: locator.innerText: Error: strict mode violation: locator('//table[@id=\\'contactList\\']/tbody/tr/following-sibling::tr/descendant::td[2]') resolved to 6 elements:\n" +
+        "    1) <td>Maria Anders</td> aka getByRole('cell', { name: 'Maria Anders' })\n" +
+        "    2) <td>Francisco Chang</td> aka getByRole('cell', { name: 'Francisco Chang' })\n" +
+        "    3) <td>Roland Mendel</td> aka getByRole('cell', { name: 'Roland Mendel' })\n" +
+        "    4) <td>Helen Bennett</td> aka getByRole('cell', { name: 'Helen Bennett' })\n" +
+        "    5) <td>Yoshi Tannamuri</td> aka getByRole('cell', { name: 'Yoshi Tannamuri' })\n" +
+        "    6) <td>Giovanni Rovelli</td> aka getByRole('cell', { name: 'Giovanni Rovelli' })\n" +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//table[@id=\\'contactList\\']/tbody/tr/following-sibling::tr/descendant::td[2]')\x1B[22m\n",
+      stack: "Error: locator.innerText: Error: strict mode violation: locator('//table[@id=\\'contactList\\']/tbody/tr/following-sibling::tr/descendant::td[2]') resolved to 6 elements:\n" +
+        "    1) <td>Maria Anders</td> aka getByRole('cell', { name: 'Maria Anders' })\n" +
+        "    2) <td>Francisco Chang</td> aka getByRole('cell', { name: 'Francisco Chang' })\n" +
+        "    3) <td>Roland Mendel</td> aka getByRole('cell', { name: 'Roland Mendel' })\n" +
+        "    4) <td>Helen Bennett</td> aka getByRole('cell', { name: 'Helen Bennett' })\n" +
+        "    5) <td>Yoshi Tannamuri</td> aka getByRole('cell', { name: 'Yoshi Tannamuri' })\n" +
+        "    6) <td>Giovanni Rovelli</td> aka getByRole('cell', { name: 'Giovanni Rovelli' })\n" +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//table[@id=\\'contactList\\']/tbody/tr/following-sibling::tr/descendant::td[2]')\x1B[22m\n" +
+        '\n' +
+        '    at C:\\Smitha\\Projects\\PlaywrightTypescript\\tests\\Chapter07\\accountRegistration.spec.ts:85:56',
+      cause: undefined
+    }
+  }
+}

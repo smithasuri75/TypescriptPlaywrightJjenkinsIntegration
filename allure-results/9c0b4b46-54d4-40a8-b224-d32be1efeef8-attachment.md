@@ -1,0 +1,2665 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - navigation [ref=e5]:
+        - generic [ref=e6]:
+          - link "Worldometer Logo" [ref=e8] [cursor=pointer]:
+            - /url: /
+            - img "Worldometer Logo" [ref=e9]
+          - generic [ref=e10]:
+            - generic [ref=e11]:
+              - link "Population" [ref=e12] [cursor=pointer]:
+                - /url: /population/
+              - button "More" [ref=e14] [cursor=pointer]:
+                - text: More
+                - img [ref=e15]
+            - button "English" [ref=e19]:
+              - img [ref=e20]
+              - generic [ref=e25]: English
+    - generic [ref=e26]:
+      - generic [ref=e29]:
+        - navigation "Breadcrumb" [ref=e31]:
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - link "W" [ref=e34] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e35]: /
+            - listitem [ref=e36]:
+              - link "Population" [ref=e37] [cursor=pointer]:
+                - /url: /population/
+            - listitem [ref=e38]: /
+            - listitem [ref=e39]: World Population
+        - generic [ref=e40]:
+          - heading "Current World Population" [level=1] [ref=e41]
+          - generic [ref=e43]: 8,254,044,264
+          - link "view all people on 1 page >" [ref=e44] [cursor=pointer]:
+            - /url: /watch/world-population/
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - generic [ref=e48]: Today
+            - generic [ref=e49]:
+              - generic [ref=e50]:
+                - generic [ref=e51]: Births today
+                - generic [ref=e52]: 248,515
+              - generic [ref=e53]:
+                - generic [ref=e54]: Deaths today
+                - generic [ref=e55]: 117,101
+              - generic [ref=e56]:
+                - generic [ref=e57]: Population Growth today
+                - generic [ref=e58]: 131,414
+          - generic [ref=e59]:
+            - generic [ref=e60]: This Year
+            - generic [ref=e61]:
+              - generic [ref=e62]:
+                - generic [ref=e63]: Births this year
+                - generic [ref=e64]: 107,247,317
+              - generic [ref=e65]:
+                - generic [ref=e66]: Deaths this year
+                - generic [ref=e67]: 50,535,438
+              - generic [ref=e68]:
+                - generic [ref=e69]: Population Growth this year
+                - generic [ref=e70]: 56,711,879
+        - generic [ref=e71]:
+          - generic [ref=e72]: World Population Sections
+          - generic [ref=e73]:
+            - list [ref=e74]:
+              - listitem [ref=e75]:
+                - link "Top 20 Countries LIVE" [ref=e76] [cursor=pointer]:
+                  - /url: "#top20"
+              - listitem [ref=e77]:
+                - link "Past, present, and future" [ref=e78] [cursor=pointer]:
+                  - /url: "#pastfuture"
+              - listitem [ref=e79]:
+                - link "Global Growth Rate" [ref=e80] [cursor=pointer]:
+                  - /url: "#growthrate"
+              - listitem [ref=e81]:
+                - link "Historical data" [ref=e82] [cursor=pointer]:
+                  - /url: "#table-historical"
+              - listitem [ref=e83]:
+                - link "Forecast" [ref=e84] [cursor=pointer]:
+                  - /url: "#table-forecast"
+              - listitem [ref=e85]:
+                - link "Milestones" [ref=e86] [cursor=pointer]:
+                  - /url: "#milestones"
+            - list [ref=e87]:
+              - listitem [ref=e88]:
+                - link "by Region" [ref=e89] [cursor=pointer]:
+                  - /url: "#region"
+              - listitem [ref=e90]:
+                - link "by Religion" [ref=e91] [cursor=pointer]:
+                  - /url: "#religions"
+              - listitem [ref=e92]:
+                - link "Population Density" [ref=e93] [cursor=pointer]:
+                  - /url: "#density"
+              - listitem [ref=e94]:
+                - link "Population by Country" [ref=e95] [cursor=pointer]:
+                  - /url: "#country"
+              - listitem [ref=e96]:
+                - link "All-time total" [ref=e97] [cursor=pointer]:
+                  - /url: "#total"
+              - listitem [ref=e98]:
+                - link "Sources and methods" [ref=e99] [cursor=pointer]:
+                  - /url: "#sources"
+          - paragraph [ref=e101]:
+            - strong [ref=e103]: Demographics
+            - text: ":"
+            - link "World Demographics" [ref=e104] [cursor=pointer]:
+              - /url: /demographics/world-demographics/
+            - text: "|"
+            - link "Age Structure" [ref=e105] [cursor=pointer]:
+              - /url: /demographics/world-demographics/#broad-age
+            - text: "|"
+            - link "Sex Ratio" [ref=e106] [cursor=pointer]:
+              - /url: /demographics/world-demographics/#sex-ratio
+            - text: "|"
+            - link "Population Pyramid" [ref=e107] [cursor=pointer]:
+              - /url: /demographics/world-demographics/#population-pyramid
+            - text: "|"
+            - link "Median Age" [ref=e108] [cursor=pointer]:
+              - /url: /demographics/world-demographics/#median-age
+            - text: "|"
+            - link "Fertility Rate" [ref=e109] [cursor=pointer]:
+              - /url: /demographics/world-demographics/#tfr
+            - text: "|"
+            - link "Life Expectancy" [ref=e110] [cursor=pointer]:
+              - /url: /demographics/life-expectancy/
+            - text: "|"
+            - link "Urbanization" [ref=e111] [cursor=pointer]:
+              - /url: /demographics/world-demographics/#urb
+      - generic [ref=e115]:
+        - generic [ref=e116]: Top 20 Largest Countries by Population (live)
+        - generic [ref=e117]:
+          - generic [ref=e118]:
+            - generic [ref=e119]:
+              - generic [ref=e120]: "1"
+              - img "India" [ref=e122]
+              - link "India" [ref=e124] [cursor=pointer]:
+                - /url: /world-population/india-population/
+              - generic [ref=e126]: 1,467,950,931
+            - generic [ref=e127]:
+              - generic [ref=e128]: "2"
+              - img "China" [ref=e130]
+              - link "China" [ref=e132] [cursor=pointer]:
+                - /url: /world-population/china-population/
+              - generic [ref=e134]: 1,415,084,459
+            - generic [ref=e135]:
+              - generic [ref=e136]: "3"
+              - img "United States" [ref=e138]
+              - link "U.S.A." [ref=e140] [cursor=pointer]:
+                - /url: /world-population/us-population/
+              - generic [ref=e142]: 347,858,760
+            - generic [ref=e143]:
+              - generic [ref=e144]: "4"
+              - img "Indonesia" [ref=e146]
+              - link "Indonesia" [ref=e148] [cursor=pointer]:
+                - /url: /world-population/indonesia-population/
+              - generic [ref=e150]: 286,426,425
+            - generic [ref=e151]:
+              - generic [ref=e152]: "5"
+              - img "Pakistan" [ref=e154]
+              - link "Pakistan" [ref=e156] [cursor=pointer]:
+                - /url: /world-population/pakistan-population/
+              - generic [ref=e158]: 256,473,277
+            - generic [ref=e159]:
+              - generic [ref=e160]: "6"
+              - img "Nigeria" [ref=e162]
+              - link "Nigeria" [ref=e164] [cursor=pointer]:
+                - /url: /world-population/nigeria-population/
+              - generic [ref=e166]: 239,071,549
+            - generic [ref=e167]:
+              - generic [ref=e168]: "7"
+              - img "Brazil" [ref=e170]
+              - link "Brazil" [ref=e172] [cursor=pointer]:
+                - /url: /world-population/brazil-population/
+              - generic [ref=e174]: 213,068,710
+            - generic [ref=e175]:
+              - generic [ref=e176]: "8"
+              - img "Bangladesh" [ref=e178]
+              - link "Bangladesh" [ref=e180] [cursor=pointer]:
+                - /url: /world-population/bangladesh-population/
+              - generic [ref=e182]: 176,359,644
+            - generic [ref=e183]:
+              - generic [ref=e184]: "9"
+              - img "Russia" [ref=e186]
+              - link "Russia" [ref=e188] [cursor=pointer]:
+                - /url: /world-population/russia-population/
+              - generic [ref=e190]: 143,739,815
+            - generic [ref=e191]:
+              - generic [ref=e192]: "10"
+              - img "Ethiopia" [ref=e194]
+              - link "Ethiopia" [ref=e196] [cursor=pointer]:
+                - /url: /world-population/ethiopia-population/
+              - generic [ref=e198]: 136,562,056
+          - generic [ref=e199]:
+            - generic [ref=e200]:
+              - generic [ref=e201]: "11"
+              - img "Mexico" [ref=e203]
+              - link "Mexico" [ref=e205] [cursor=pointer]:
+                - /url: /world-population/mexico-population/
+              - generic [ref=e207]: 132,289,871
+            - generic [ref=e208]:
+              - generic [ref=e209]: "12"
+              - img "Japan" [ref=e211]
+              - link "Japan" [ref=e213] [cursor=pointer]:
+                - /url: /world-population/japan-population/
+              - generic [ref=e215]: 122,900,136
+            - generic [ref=e216]:
+              - generic [ref=e217]: "13"
+              - img "Egypt" [ref=e219]
+              - link "Egypt" [ref=e221] [cursor=pointer]:
+                - /url: /world-population/egypt-population/
+              - generic [ref=e223]: 118,946,051
+            - generic [ref=e224]:
+              - generic [ref=e225]: "14"
+              - img "Philippines" [ref=e227]
+              - link "Philippines" [ref=e229] [cursor=pointer]:
+                - /url: /world-population/philippines-population/
+              - generic [ref=e231]: 117,084,862
+            - generic [ref=e232]:
+              - generic [ref=e233]: "15"
+              - img "DR Congo" [ref=e235]
+              - link "DR Congo" [ref=e237] [cursor=pointer]:
+                - /url: /world-population/democratic-republic-of-the-congo-population/
+              - generic [ref=e239]: 113,973,306
+            - generic [ref=e240]:
+              - generic [ref=e241]: "16"
+              - img "Vietnam" [ref=e243]
+              - link "Vietnam" [ref=e245] [cursor=pointer]:
+                - /url: /world-population/vietnam-population/
+              - generic [ref=e247]: 101,791,178
+            - generic [ref=e248]:
+              - generic [ref=e249]: "17"
+              - img "Iran" [ref=e251]
+              - link "Iran" [ref=e253] [cursor=pointer]:
+                - /url: /world-population/iran-population/
+              - generic [ref=e255]: 92,686,300
+            - generic [ref=e256]:
+              - generic [ref=e257]: "18"
+              - img "Turkey" [ref=e259]
+              - link "Turkey" [ref=e261] [cursor=pointer]:
+                - /url: /world-population/turkey-population/
+              - generic [ref=e263]: 87,752,012
+            - generic [ref=e264]:
+              - generic [ref=e265]: "19"
+              - img "Germany" [ref=e267]
+              - link "Germany" [ref=e269] [cursor=pointer]:
+                - /url: /world-population/germany-population/
+              - generic [ref=e271]: 83,925,744
+            - generic [ref=e272]:
+              - generic [ref=e273]: "20"
+              - img "Thailand" [ref=e275]
+              - link "Thailand" [ref=e277] [cursor=pointer]:
+                - /url: /world-population/thailand-population/
+              - generic [ref=e279]: 71,604,741
+        - paragraph [ref=e281]:
+          - link "see all countries >" [ref=e282] [cursor=pointer]:
+            - /url: /world-population/population-by-country/
+          - text: "|"
+          - link "1950 rank >" [ref=e283] [cursor=pointer]:
+            - /url: http://www.worldometers.info/population/most-populous-countries/#past
+          - text: "|"
+          - link "2050 rank >" [ref=e284] [cursor=pointer]:
+            - /url: http://www.worldometers.info/population/most-populous-countries/#future
+      - generic [ref=e286]:
+        - 'heading "World Population: Past, Present, and Future" [level=2] [ref=e287]'
+        - paragraph [ref=e288]: (move and expand the bar at the bottom of the chart to navigate through time)
+        - button "back to top ↑" [ref=e290] [cursor=pointer]
+        - generic [ref=e298]:
+          - generic [ref=e299]:
+            - generic [ref=e303]: World Population
+            - generic "A chart." [ref=e308]:
+              - img "A chart." [ref=e309]:
+                - generic [ref=e351]:
+                  - generic [ref=e353]: "300"
+                  - generic [ref=e355]: "400"
+                  - generic [ref=e357]: "500"
+                  - generic [ref=e359]: "600"
+                  - generic [ref=e361]: "700"
+                  - generic [ref=e363]: "800"
+                  - generic [ref=e365]: "900"
+                  - generic [ref=e367]: "1000"
+                  - generic [ref=e369]: "1100"
+                  - generic [ref=e371]: "1200"
+                  - generic [ref=e373]: "1300"
+                  - generic [ref=e375]: "1400"
+                  - generic [ref=e377]: "1500"
+                  - generic [ref=e379]: "1600"
+                  - generic [ref=e381]: "1700"
+                  - generic [ref=e383]: "1800"
+                  - generic [ref=e385]: "1900"
+                  - generic [ref=e387]: "2000"
+                  - generic [ref=e389]: 2…
+                  - generic [ref=e392]:
+                    - generic [ref=e393]: "2000000000"
+                    - generic [ref=e394]: "2000000000"
+                  - generic [ref=e396]:
+                    - generic [ref=e397]: "4000000000"
+                    - generic [ref=e398]: "4000000000"
+                  - generic [ref=e400]:
+                    - generic [ref=e401]: "6000000000"
+                    - generic [ref=e402]: "6000000000"
+                  - generic [ref=e404]:
+                    - generic [ref=e405]: "8000000000"
+                    - generic [ref=e406]: "8000000000"
+              - generic "A tabular representation of the data in the chart." [ref=e407]:
+                - table [ref=e408]:
+                  - rowgroup [ref=e409]:
+                    - row "Datetime World Population" [ref=e410]:
+                      - cell "Datetime" [ref=e411]
+                      - cell "World Population" [ref=e412]
+                  - rowgroup [ref=e413]:
+                    - row "Jun 30, 200 190,000,000" [ref=e414]:
+                      - cell "Jun 30, 200" [ref=e415]
+                      - cell "190,000,000" [ref=e416]
+                    - row "Jun 30, 600 200,000,000" [ref=e417]:
+                      - cell "Jun 30, 600" [ref=e418]
+                      - cell "200,000,000" [ref=e419]
+                    - row "Jun 30, 700 210,000,000" [ref=e420]:
+                      - cell "Jun 30, 700" [ref=e421]
+                      - cell "210,000,000" [ref=e422]
+                    - row "Jun 30, 800 220,000,000" [ref=e423]:
+                      - cell "Jun 30, 800" [ref=e424]
+                      - cell "220,000,000" [ref=e425]
+                    - row "Jun 30, 900 240,000,000" [ref=e426]:
+                      - cell "Jun 30, 900" [ref=e427]
+                      - cell "240,000,000" [ref=e428]
+                    - row "Jun 30, 1000 275,000,000" [ref=e429]:
+                      - cell "Jun 30, 1000" [ref=e430]
+                      - cell "275,000,000" [ref=e431]
+                    - row "Jun 30, 1100 320,000,000" [ref=e432]:
+                      - cell "Jun 30, 1100" [ref=e433]
+                      - cell "320,000,000" [ref=e434]
+                    - row "Jun 30, 1200 360,000,000" [ref=e435]:
+                      - cell "Jun 30, 1200" [ref=e436]
+                      - cell "360,000,000" [ref=e437]
+                    - row "Jun 30, 1400 350,000,000" [ref=e438]:
+                      - cell "Jun 30, 1400" [ref=e439]
+                      - cell "350,000,000" [ref=e440]
+                    - row "Jun 30, 1500 450,000,000" [ref=e441]:
+                      - cell "Jun 30, 1500" [ref=e442]
+                      - cell "450,000,000" [ref=e443]
+                    - row "Jun 30, 1650 500,000,000" [ref=e444]:
+                      - cell "Jun 30, 1650" [ref=e445]
+                      - cell "500,000,000" [ref=e446]
+                    - row "Jun 30, 1700 610,000,000" [ref=e447]:
+                      - cell "Jun 30, 1700" [ref=e448]
+                      - cell "610,000,000" [ref=e449]
+                    - row "Jun 30, 1760 770,000,000" [ref=e450]:
+                      - cell "Jun 30, 1760" [ref=e451]
+                      - cell "770,000,000" [ref=e452]
+                    - row "Jun 30, 1804 1,000,000,000" [ref=e453]:
+                      - cell "Jun 30, 1804" [ref=e454]
+                      - cell "1,000,000,000" [ref=e455]
+                    - row "Jun 30, 1850 1,200,000,000" [ref=e456]:
+                      - cell "Jun 30, 1850" [ref=e457]
+                      - cell "1,200,000,000" [ref=e458]
+                    - row "Jun 30, 1900 1,600,000,000" [ref=e459]:
+                      - cell "Jun 30, 1900" [ref=e460]
+                      - cell "1,600,000,000" [ref=e461]
+                    - row "Jun 30, 1927 2,000,000,000" [ref=e462]:
+                      - cell "Jun 30, 1927" [ref=e463]
+                      - cell "2,000,000,000" [ref=e464]
+                    - row "Jun 30, 1950 2,493,092,848" [ref=e465]:
+                      - cell "Jun 30, 1950" [ref=e466]
+                      - cell "2,493,092,848" [ref=e467]
+                    - row "Jun 30, 1951 2,536,927,035" [ref=e468]:
+                      - cell "Jun 30, 1951" [ref=e469]
+                      - cell "2,536,927,035" [ref=e470]
+                    - row "Jun 30, 1952 2,584,086,339" [ref=e471]:
+                      - cell "Jun 30, 1952" [ref=e472]
+                      - cell "2,584,086,339" [ref=e473]
+                    - row "Jun 30, 1953 2,634,106,235" [ref=e474]:
+                      - cell "Jun 30, 1953" [ref=e475]
+                      - cell "2,634,106,235" [ref=e476]
+                    - row "Jun 30, 1954 2,685,894,860" [ref=e477]:
+                      - cell "Jun 30, 1954" [ref=e478]
+                      - cell "2,685,894,860" [ref=e479]
+                    - row "Jun 30, 1955 2,740,213,792" [ref=e480]:
+                      - cell "Jun 30, 1955" [ref=e481]
+                      - cell "2,740,213,792" [ref=e482]
+                    - row "Jun 30, 1956 2,795,409,994" [ref=e483]:
+                      - cell "Jun 30, 1956" [ref=e484]
+                      - cell "2,795,409,994" [ref=e485]
+                    - row "Jun 30, 1957 2,852,618,337" [ref=e486]:
+                      - cell "Jun 30, 1957" [ref=e487]
+                      - cell "2,852,618,337" [ref=e488]
+                    - row "Jun 30, 1958 2,911,249,671" [ref=e489]:
+                      - cell "Jun 30, 1958" [ref=e490]
+                      - cell "2,911,249,671" [ref=e491]
+                    - row "Jun 30, 1959 2,965,950,351" [ref=e492]:
+                      - cell "Jun 30, 1959" [ref=e493]
+                      - cell "2,965,950,351" [ref=e494]
+                    - row "Jun 30, 1960 3,015,470,894" [ref=e495]:
+                      - cell "Jun 30, 1960" [ref=e496]
+                      - cell "3,015,470,894" [ref=e497]
+                    - row "Jun 30, 1961 3,064,869,675" [ref=e498]:
+                      - cell "Jun 30, 1961" [ref=e499]
+                      - cell "3,064,869,675" [ref=e500]
+                    - row "Jun 30, 1962 3,123,374,315" [ref=e501]:
+                      - cell "Jun 30, 1962" [ref=e502]
+                      - cell "3,123,374,315" [ref=e503]
+                    - row "Jun 30, 1963 3,192,807,828" [ref=e504]:
+                      - cell "Jun 30, 1963" [ref=e505]
+                      - cell "3,192,807,828" [ref=e506]
+                    - row "Jun 30, 1964 3,264,487,339" [ref=e507]:
+                      - cell "Jun 30, 1964" [ref=e508]
+                      - cell "3,264,487,339" [ref=e509]
+                    - row "Jun 30, 1965 3,334,533,703" [ref=e510]:
+                      - cell "Jun 30, 1965" [ref=e511]
+                      - cell "3,334,533,703" [ref=e512]
+                    - row "Jun 30, 1966 3,404,041,125" [ref=e513]:
+                      - cell "Jun 30, 1966" [ref=e514]
+                      - cell "3,404,041,125" [ref=e515]
+                    - row "Jun 30, 1967 3,473,412,880" [ref=e516]:
+                      - cell "Jun 30, 1967" [ref=e517]
+                      - cell "3,473,412,880" [ref=e518]
+                    - row "Jun 30, 1968 3,545,187,251" [ref=e519]:
+                      - cell "Jun 30, 1968" [ref=e520]
+                      - cell "3,545,187,251" [ref=e521]
+                    - row "Jun 30, 1969 3,619,491,579" [ref=e522]:
+                      - cell "Jun 30, 1969" [ref=e523]
+                      - cell "3,619,491,579" [ref=e524]
+                    - row "Jun 30, 1970 3,694,683,794" [ref=e525]:
+                      - cell "Jun 30, 1970" [ref=e526]
+                      - cell "3,694,683,794" [ref=e527]
+                    - row "Jun 30, 1971 3,769,847,865" [ref=e528]:
+                      - cell "Jun 30, 1971" [ref=e529]
+                      - cell "3,769,847,865" [ref=e530]
+                    - row "Jun 30, 1972 3,844,917,680" [ref=e531]:
+                      - cell "Jun 30, 1972" [ref=e532]
+                      - cell "3,844,917,680" [ref=e533]
+                    - row "Jun 30, 1973 3,920,805,042" [ref=e534]:
+                      - cell "Jun 30, 1973" [ref=e535]
+                      - cell "3,920,805,042" [ref=e536]
+                    - row "Jun 30, 1974 3,996,416,096" [ref=e537]:
+                      - cell "Jun 30, 1974" [ref=e538]
+                      - cell "3,996,416,096" [ref=e539]
+                    - row "Jun 30, 1975 4,070,735,277" [ref=e540]:
+                      - cell "Jun 30, 1975" [ref=e541]
+                      - cell "4,070,735,277" [ref=e542]
+                    - row "Jun 30, 1976 4,144,246,377" [ref=e543]:
+                      - cell "Jun 30, 1976" [ref=e544]
+                      - cell "4,144,246,377" [ref=e545]
+                    - row "Jun 30, 1977 4,217,863,796" [ref=e546]:
+                      - cell "Jun 30, 1977" [ref=e547]
+                      - cell "4,217,863,796" [ref=e548]
+                    - row "Jun 30, 1978 4,292,097,502" [ref=e549]:
+                      - cell "Jun 30, 1978" [ref=e550]
+                      - cell "4,292,097,502" [ref=e551]
+                    - row "Jun 30, 1979 4,368,539,528" [ref=e552]:
+                      - cell "Jun 30, 1979" [ref=e553]
+                      - cell "4,368,539,528" [ref=e554]
+                    - row "Jun 30, 1980 4,447,606,236" [ref=e555]:
+                      - cell "Jun 30, 1980" [ref=e556]
+                      - cell "4,447,606,236" [ref=e557]
+                    - row "Jun 30, 1981 4,528,777,306" [ref=e558]:
+                      - cell "Jun 30, 1981" [ref=e559]
+                      - cell "4,528,777,306" [ref=e560]
+                    - row "Jun 30, 1982 4,612,673,421" [ref=e561]:
+                      - cell "Jun 30, 1982" [ref=e562]
+                      - cell "4,612,673,421" [ref=e563]
+                    - row "Jun 30, 1983 4,697,327,573" [ref=e564]:
+                      - cell "Jun 30, 1983" [ref=e565]
+                      - cell "4,697,327,573" [ref=e566]
+                    - row "Jun 30, 1984 4,782,175,519" [ref=e567]:
+                      - cell "Jun 30, 1984" [ref=e568]
+                      - cell "4,782,175,519" [ref=e569]
+                    - row "Jun 30, 1985 4,868,943,465" [ref=e570]:
+                      - cell "Jun 30, 1985" [ref=e571]
+                      - cell "4,868,943,465" [ref=e572]
+                    - row "Jun 30, 1986 4,958,072,838" [ref=e573]:
+                      - cell "Jun 30, 1986" [ref=e574]
+                      - cell "4,958,072,838" [ref=e575]
+                    - row "Jun 30, 1987 5,049,746,397" [ref=e576]:
+                      - cell "Jun 30, 1987" [ref=e577]
+                      - cell "5,049,746,397" [ref=e578]
+                    - row "Jun 30, 1988 5,141,992,542" [ref=e579]:
+                      - cell "Jun 30, 1988" [ref=e580]
+                      - cell "5,141,992,542" [ref=e581]
+                    - row "Jun 30, 1989 5,234,431,732" [ref=e582]:
+                      - cell "Jun 30, 1989" [ref=e583]
+                      - cell "5,234,431,732" [ref=e584]
+                    - row "Jun 30, 1990 5,327,803,110" [ref=e585]:
+                      - cell "Jun 30, 1990" [ref=e586]
+                      - cell "5,327,803,110" [ref=e587]
+                    - row "Jun 30, 1991 5,418,735,891" [ref=e588]:
+                      - cell "Jun 30, 1991" [ref=e589]
+                      - cell "5,418,735,891" [ref=e590]
+                    - row "Jun 30, 1992 5,505,989,816" [ref=e591]:
+                      - cell "Jun 30, 1992" [ref=e592]
+                      - cell "5,505,989,816" [ref=e593]
+                    - row "Jun 30, 1993 5,591,544,797" [ref=e594]:
+                      - cell "Jun 30, 1993" [ref=e595]
+                      - cell "5,591,544,797" [ref=e596]
+                    - row "Jun 30, 1994 5,675,551,255" [ref=e597]:
+                      - cell "Jun 30, 1994" [ref=e598]
+                      - cell "5,675,551,255" [ref=e599]
+                    - row "Jun 30, 1995 5,758,878,982" [ref=e600]:
+                      - cell "Jun 30, 1995" [ref=e601]
+                      - cell "5,758,878,982" [ref=e602]
+                    - row "Jun 30, 1996 5,842,055,734" [ref=e603]:
+                      - cell "Jun 30, 1996" [ref=e604]
+                      - cell "5,842,055,734" [ref=e605]
+                    - row "Jun 30, 1997 5,924,787,816" [ref=e606]:
+                      - cell "Jun 30, 1997" [ref=e607]
+                      - cell "5,924,787,816" [ref=e608]
+                    - row "Jun 30, 1998 6,007,066,690" [ref=e609]:
+                      - cell "Jun 30, 1998" [ref=e610]
+                      - cell "6,007,066,690" [ref=e611]
+                    - row "Jun 30, 1999 6,089,006,339" [ref=e612]:
+                      - cell "Jun 30, 1999" [ref=e613]
+                      - cell "6,089,006,339" [ref=e614]
+                    - row "Jun 30, 2000 6,171,702,993" [ref=e615]:
+                      - cell "Jun 30, 2000" [ref=e616]
+                      - cell "6,171,702,993" [ref=e617]
+                    - row "Jun 30, 2001 6,254,936,459" [ref=e618]:
+                      - cell "Jun 30, 2001" [ref=e619]
+                      - cell "6,254,936,459" [ref=e620]
+                    - row "Jun 30, 2002 6,337,730,342" [ref=e621]:
+                      - cell "Jun 30, 2002" [ref=e622]
+                      - cell "6,337,730,342" [ref=e623]
+                    - row "Jun 30, 2003 6,420,361,634" [ref=e624]:
+                      - cell "Jun 30, 2003" [ref=e625]
+                      - cell "6,420,361,634" [ref=e626]
+                    - row "Jun 30, 2004 6,503,377,772" [ref=e627]:
+                      - cell "Jun 30, 2004" [ref=e628]
+                      - cell "6,503,377,772" [ref=e629]
+                    - row "Jun 30, 2005 6,586,970,132" [ref=e630]:
+                      - cell "Jun 30, 2005" [ref=e631]
+                      - cell "6,586,970,132" [ref=e632]
+                    - row "Jun 30, 2006 6,671,452,015" [ref=e633]:
+                      - cell "Jun 30, 2006" [ref=e634]
+                      - cell "6,671,452,015" [ref=e635]
+                    - row "Jun 30, 2007 6,757,308,781" [ref=e636]:
+                      - cell "Jun 30, 2007" [ref=e637]
+                      - cell "6,757,308,781" [ref=e638]
+                    - row "Jun 30, 2008 6,844,457,662" [ref=e639]:
+                      - cell "Jun 30, 2008" [ref=e640]
+                      - cell "6,844,457,662" [ref=e641]
+                    - row "Jun 30, 2009 6,932,766,416" [ref=e642]:
+                      - cell "Jun 30, 2009" [ref=e643]
+                      - cell "6,932,766,416" [ref=e644]
+                    - row "Jun 30, 2010 7,021,732,148" [ref=e645]:
+                      - cell "Jun 30, 2010" [ref=e646]
+                      - cell "7,021,732,148" [ref=e647]
+                    - row "Jun 30, 2011 7,110,923,765" [ref=e648]:
+                      - cell "Jun 30, 2011" [ref=e649]
+                      - cell "7,110,923,765" [ref=e650]
+                    - row "Jun 30, 2012 7,201,202,485" [ref=e651]:
+                      - cell "Jun 30, 2012" [ref=e652]
+                      - cell "7,201,202,485" [ref=e653]
+                    - row "Jun 30, 2013 7,291,793,585" [ref=e654]:
+                      - cell "Jun 30, 2013" [ref=e655]
+                      - cell "7,291,793,585" [ref=e656]
+                    - row "Jun 30, 2014 7,381,616,244" [ref=e657]:
+                      - cell "Jun 30, 2014" [ref=e658]
+                      - cell "7,381,616,244" [ref=e659]
+                    - row "Jun 30, 2015 7,470,491,872" [ref=e660]:
+                      - cell "Jun 30, 2015" [ref=e661]
+                      - cell "7,470,491,872" [ref=e662]
+                    - row "Jun 30, 2016 7,558,554,526" [ref=e663]:
+                      - cell "Jun 30, 2016" [ref=e664]
+                      - cell "7,558,554,526" [ref=e665]
+                    - row "Jun 30, 2017 7,645,617,954" [ref=e666]:
+                      - cell "Jun 30, 2017" [ref=e667]
+                      - cell "7,645,617,954" [ref=e668]
+                    - row "Jun 30, 2018 7,729,902,781" [ref=e669]:
+                      - cell "Jun 30, 2018" [ref=e670]
+                      - cell "7,729,902,781" [ref=e671]
+                    - row "Jun 30, 2019 7,811,293,698" [ref=e672]:
+                      - cell "Jun 30, 2019" [ref=e673]
+                      - cell "7,811,293,698" [ref=e674]
+                    - row "Jun 30, 2020 7,887,001,292" [ref=e675]:
+                      - cell "Jun 30, 2020" [ref=e676]
+                      - cell "7,887,001,292" [ref=e677]
+                    - row "Jun 30, 2021 7,954,448,391" [ref=e678]:
+                      - cell "Jun 30, 2021" [ref=e679]
+                      - cell "7,954,448,391" [ref=e680]
+                    - row "Jun 30, 2022 8,021,407,192" [ref=e681]:
+                      - cell "Jun 30, 2022" [ref=e682]
+                      - cell "8,021,407,192" [ref=e683]
+                    - row "Jun 30, 2023 8,091,734,930" [ref=e684]:
+                      - cell "Jun 30, 2023" [ref=e685]
+                      - cell "8,091,734,930" [ref=e686]
+                    - row "Jun 30, 2024 8,161,972,572" [ref=e687]:
+                      - cell "Jun 30, 2024" [ref=e688]
+                      - cell "8,161,972,572" [ref=e689]
+                    - row "Jun 30, 2025 8,231,613,070" [ref=e690]:
+                      - cell "Jun 30, 2025" [ref=e691]
+                      - cell "8,231,613,070" [ref=e692]
+                    - row "Jun 30, 2026 8,300,678,395" [ref=e693]:
+                      - cell "Jun 30, 2026" [ref=e694]
+                      - cell "8,300,678,395" [ref=e695]
+                    - row "Jun 30, 2027 8,369,094,344" [ref=e696]:
+                      - cell "Jun 30, 2027" [ref=e697]
+                      - cell "8,369,094,344" [ref=e698]
+                    - row "Jun 30, 2028 8,436,618,886" [ref=e699]:
+                      - cell "Jun 30, 2028" [ref=e700]
+                      - cell "8,436,618,886" [ref=e701]
+                    - row "Jun 30, 2029 8,503,285,323" [ref=e702]:
+                      - cell "Jun 30, 2029" [ref=e703]
+                      - cell "8,503,285,323" [ref=e704]
+                    - row "Jun 30, 2030 8,569,124,911" [ref=e705]:
+                      - cell "Jun 30, 2030" [ref=e706]
+                      - cell "8,569,124,911" [ref=e707]
+                    - row "Jun 30, 2031 8,634,119,333" [ref=e708]:
+                      - cell "Jun 30, 2031" [ref=e709]
+                      - cell "8,634,119,333" [ref=e710]
+                    - row "Jun 30, 2032 8,698,229,812" [ref=e711]:
+                      - cell "Jun 30, 2032" [ref=e712]
+                      - cell "8,698,229,812" [ref=e713]
+                    - row "Jun 30, 2033 8,761,449,081" [ref=e714]:
+                      - cell "Jun 30, 2033" [ref=e715]
+                      - cell "8,761,449,081" [ref=e716]
+                    - row "Jun 30, 2034 8,823,784,909" [ref=e717]:
+                      - cell "Jun 30, 2034" [ref=e718]
+                      - cell "8,823,784,909" [ref=e719]
+                    - row "Jun 30, 2035 8,885,210,181" [ref=e720]:
+                      - cell "Jun 30, 2035" [ref=e721]
+                      - cell "8,885,210,181" [ref=e722]
+                    - row "Jun 30, 2036 8,945,686,614" [ref=e723]:
+                      - cell "Jun 30, 2036" [ref=e724]
+                      - cell "8,945,686,614" [ref=e725]
+                    - row "Jun 30, 2037 9,005,152,624" [ref=e726]:
+                      - cell "Jun 30, 2037" [ref=e727]
+                      - cell "9,005,152,624" [ref=e728]
+                    - row "Jun 30, 2038 9,063,572,926" [ref=e729]:
+                      - cell "Jun 30, 2038" [ref=e730]
+                      - cell "9,063,572,926" [ref=e731]
+                    - row "Jun 30, 2039 9,120,928,380" [ref=e732]:
+                      - cell "Jun 30, 2039" [ref=e733]
+                      - cell "9,120,928,380" [ref=e734]
+                    - row "Jun 30, 2040 9,177,190,203" [ref=e735]:
+                      - cell "Jun 30, 2040" [ref=e736]
+                      - cell "9,177,190,203" [ref=e737]
+                    - row "Jun 30, 2041 9,232,281,575" [ref=e738]:
+                      - cell "Jun 30, 2041" [ref=e739]
+                      - cell "9,232,281,575" [ref=e740]
+                    - row "Jun 30, 2042 9,286,110,371" [ref=e741]:
+                      - cell "Jun 30, 2042" [ref=e742]
+                      - cell "9,286,110,371" [ref=e743]
+                    - row "Jun 30, 2043 9,338,661,314" [ref=e744]:
+                      - cell "Jun 30, 2043" [ref=e745]
+                      - cell "9,338,661,314" [ref=e746]
+                    - row "Jun 30, 2044 9,389,873,693" [ref=e747]:
+                      - cell "Jun 30, 2044" [ref=e748]
+                      - cell "9,389,873,693" [ref=e749]
+                    - row "Jun 30, 2045 9,439,639,668" [ref=e750]:
+                      - cell "Jun 30, 2045" [ref=e751]
+                      - cell "9,439,639,668" [ref=e752]
+                    - row "Jun 30, 2046 9,487,889,604" [ref=e753]:
+                      - cell "Jun 30, 2046" [ref=e754]
+                      - cell "9,487,889,604" [ref=e755]
+                    - row "Jun 30, 2047 9,534,545,977" [ref=e756]:
+                      - cell "Jun 30, 2047" [ref=e757]
+                      - cell "9,534,545,977" [ref=e758]
+                    - row "Jun 30, 2048 9,579,536,043" [ref=e759]:
+                      - cell "Jun 30, 2048" [ref=e760]
+                      - cell "9,579,536,043" [ref=e761]
+                    - row "Jun 30, 2049 9,622,824,029" [ref=e762]:
+                      - cell "Jun 30, 2049" [ref=e763]
+                      - cell "9,622,824,029" [ref=e764]
+                    - row "Jun 30, 2050 9,664,378,587" [ref=e765]:
+                      - cell "Jun 30, 2050" [ref=e766]
+                      - cell "9,664,378,587" [ref=e767]
+                    - row "Jun 30, 2051 9,704,192,304" [ref=e768]:
+                      - cell "Jun 30, 2051" [ref=e769]
+                      - cell "9,704,192,304" [ref=e770]
+                    - row "Jun 30, 2052 9,742,264,515" [ref=e771]:
+                      - cell "Jun 30, 2052" [ref=e772]
+                      - cell "9,742,264,515" [ref=e773]
+                    - row "Jun 30, 2053 9,778,614,614" [ref=e774]:
+                      - cell "Jun 30, 2053" [ref=e775]
+                      - cell "9,778,614,614" [ref=e776]
+                    - row "Jun 30, 2054 9,813,251,659" [ref=e777]:
+                      - cell "Jun 30, 2054" [ref=e778]
+                      - cell "9,813,251,659" [ref=e779]
+                    - row "Jun 30, 2055 9,846,237,570" [ref=e780]:
+                      - cell "Jun 30, 2055" [ref=e781]
+                      - cell "9,846,237,570" [ref=e782]
+                    - row "Jun 30, 2056 9,877,680,392" [ref=e783]:
+                      - cell "Jun 30, 2056" [ref=e784]
+                      - cell "9,877,680,392" [ref=e785]
+                    - row "Jun 30, 2057 9,907,637,193" [ref=e786]:
+                      - cell "Jun 30, 2057" [ref=e787]
+                      - cell "9,907,637,193" [ref=e788]
+                    - row "Jun 30, 2058 9,936,164,379" [ref=e789]:
+                      - cell "Jun 30, 2058" [ref=e790]
+                      - cell "9,936,164,379" [ref=e791]
+                    - row "Jun 30, 2059 9,963,337,082" [ref=e792]:
+                      - cell "Jun 30, 2059" [ref=e793]
+                      - cell "9,963,337,082" [ref=e794]
+                    - row "Jun 30, 2060 9,989,232,292" [ref=e795]:
+                      - cell "Jun 30, 2060" [ref=e796]
+                      - cell "9,989,232,292" [ref=e797]
+                    - row "Jun 30, 2061 10,013,916,213" [ref=e798]:
+                      - cell "Jun 30, 2061" [ref=e799]
+                      - cell "10,013,916,213" [ref=e800]
+                    - row "Jun 30, 2062 10,037,466,600" [ref=e801]:
+                      - cell "Jun 30, 2062" [ref=e802]
+                      - cell "10,037,466,600" [ref=e803]
+                    - row "Jun 30, 2063 10,059,950,035" [ref=e804]:
+                      - cell "Jun 30, 2063" [ref=e805]
+                      - cell "10,059,950,035" [ref=e806]
+                    - row "Jun 30, 2064 10,081,402,737" [ref=e807]:
+                      - cell "Jun 30, 2064" [ref=e808]
+                      - cell "10,081,402,737" [ref=e809]
+                    - row "Jun 30, 2065 10,101,849,561" [ref=e810]:
+                      - cell "Jun 30, 2065" [ref=e811]
+                      - cell "10,101,849,561" [ref=e812]
+                    - row "Jun 30, 2066 10,121,317,107" [ref=e813]:
+                      - cell "Jun 30, 2066" [ref=e814]
+                      - cell "10,121,317,107" [ref=e815]
+                    - row "Jun 30, 2067 10,139,808,361" [ref=e816]:
+                      - cell "Jun 30, 2067" [ref=e817]
+                      - cell "10,139,808,361" [ref=e818]
+                    - row "Jun 30, 2068 10,157,301,941" [ref=e819]:
+                      - cell "Jun 30, 2068" [ref=e820]
+                      - cell "10,157,301,941" [ref=e821]
+                    - row "Jun 30, 2069 10,173,782,135" [ref=e822]:
+                      - cell "Jun 30, 2069" [ref=e823]
+                      - cell "10,173,782,135" [ref=e824]
+                    - row "Jun 30, 2070 10,189,241,959" [ref=e825]:
+                      - cell "Jun 30, 2070" [ref=e826]
+                      - cell "10,189,241,959" [ref=e827]
+                    - row "Jun 30, 2071 10,203,681,568" [ref=e828]:
+                      - cell "Jun 30, 2071" [ref=e829]
+                      - cell "10,203,681,568" [ref=e830]
+                    - row "Jun 30, 2072 10,217,055,169" [ref=e831]:
+                      - cell "Jun 30, 2072" [ref=e832]
+                      - cell "10,217,055,169" [ref=e833]
+                    - row "Jun 30, 2073 10,229,327,824" [ref=e834]:
+                      - cell "Jun 30, 2073" [ref=e835]
+                      - cell "10,229,327,824" [ref=e836]
+                    - row "Jun 30, 2074 10,240,485,056" [ref=e837]:
+                      - cell "Jun 30, 2074" [ref=e838]
+                      - cell "10,240,485,056" [ref=e839]
+                    - row "Jun 30, 2075 10,250,496,432" [ref=e840]:
+                      - cell "Jun 30, 2075" [ref=e841]
+                      - cell "10,250,496,432" [ref=e842]
+                    - row "Jun 30, 2076 10,259,351,432" [ref=e843]:
+                      - cell "Jun 30, 2076" [ref=e844]
+                      - cell "10,259,351,432" [ref=e845]
+                    - row "Jun 30, 2077 10,267,045,023" [ref=e846]:
+                      - cell "Jun 30, 2077" [ref=e847]
+                      - cell "10,267,045,023" [ref=e848]
+                    - row "Jun 30, 2078 10,273,556,322" [ref=e849]:
+                      - cell "Jun 30, 2078" [ref=e850]
+                      - cell "10,273,556,322" [ref=e851]
+                    - row "Jun 30, 2079 10,278,887,473" [ref=e852]:
+                      - cell "Jun 30, 2079" [ref=e853]
+                      - cell "10,278,887,473" [ref=e854]
+                    - row "Jun 30, 2080 10,283,078,029" [ref=e855]:
+                      - cell "Jun 30, 2080" [ref=e856]
+                      - cell "10,283,078,029" [ref=e857]
+                    - row "Jun 30, 2081 10,286,161,735" [ref=e858]:
+                      - cell "Jun 30, 2081" [ref=e859]
+                      - cell "10,286,161,735" [ref=e860]
+                    - row "Jun 30, 2082 10,288,205,050" [ref=e861]:
+                      - cell "Jun 30, 2082" [ref=e862]
+                      - cell "10,288,205,050" [ref=e863]
+                    - row "Jun 30, 2083 10,289,247,323" [ref=e864]:
+                      - cell "Jun 30, 2083" [ref=e865]
+                      - cell "10,289,247,323" [ref=e866]
+                    - row "Jun 30, 2084 10,289,315,244" [ref=e867]:
+                      - cell "Jun 30, 2084" [ref=e868]
+                      - cell "10,289,315,244" [ref=e869]
+                    - row "Jun 30, 2085 10,288,456,599" [ref=e870]:
+                      - cell "Jun 30, 2085" [ref=e871]
+                      - cell "10,288,456,599" [ref=e872]
+                    - row "Jun 30, 2086 10,286,708,360" [ref=e873]:
+                      - cell "Jun 30, 2086" [ref=e874]
+                      - cell "10,286,708,360" [ref=e875]
+                    - row "Jun 30, 2087 10,284,111,374" [ref=e876]:
+                      - cell "Jun 30, 2087" [ref=e877]
+                      - cell "10,284,111,374" [ref=e878]
+                    - row "Jun 30, 2088 10,280,704,572" [ref=e879]:
+                      - cell "Jun 30, 2088" [ref=e880]
+                      - cell "10,280,704,572" [ref=e881]
+                    - row "Jun 30, 2089 10,276,518,280" [ref=e882]:
+                      - cell "Jun 30, 2089" [ref=e883]
+                      - cell "10,276,518,280" [ref=e884]
+                    - row "Jun 30, 2090 10,271,565,070" [ref=e885]:
+                      - cell "Jun 30, 2090" [ref=e886]
+                      - cell "10,271,565,070" [ref=e887]
+                    - row "Jun 30, 2091 10,265,861,714" [ref=e888]:
+                      - cell "Jun 30, 2091" [ref=e889]
+                      - cell "10,265,861,714" [ref=e890]
+                    - row "Jun 30, 2092 10,259,408,375" [ref=e891]:
+                      - cell "Jun 30, 2092" [ref=e892]
+                      - cell "10,259,408,375" [ref=e893]
+                    - row "Jun 30, 2093 10,252,184,759" [ref=e894]:
+                      - cell "Jun 30, 2093" [ref=e895]
+                      - cell "10,252,184,759" [ref=e896]
+                    - row "Jun 30, 2094 10,244,185,837" [ref=e897]:
+                      - cell "Jun 30, 2094" [ref=e898]
+                      - cell "10,244,185,837" [ref=e899]
+                    - row "Jun 30, 2095 10,235,403,601" [ref=e900]:
+                      - cell "Jun 30, 2095" [ref=e901]
+                      - cell "10,235,403,601" [ref=e902]
+                    - row "Jun 30, 2096 10,225,850,874" [ref=e903]:
+                      - cell "Jun 30, 2096" [ref=e904]
+                      - cell "10,225,850,874" [ref=e905]
+                    - row "Jun 30, 2097 10,215,549,310" [ref=e906]:
+                      - cell "Jun 30, 2097" [ref=e907]
+                      - cell "10,215,549,310" [ref=e908]
+                    - row "Jun 30, 2098 10,204,489,862" [ref=e909]:
+                      - cell "Jun 30, 2098" [ref=e910]
+                      - cell "10,204,489,862" [ref=e911]
+                    - row "Jun 30, 2099 10,192,689,066" [ref=e912]:
+                      - cell "Jun 30, 2099" [ref=e913]
+                      - cell "10,192,689,066" [ref=e914]
+                    - row "Jun 30, 2100 10,180,160,751" [ref=e915]:
+                      - cell "Jun 30, 2100" [ref=e916]
+                      - cell "10,180,160,751" [ref=e917]
+          - generic [ref=e920]:
+            - generic "A chart." [ref=e921]:
+              - img "A chart." [ref=e922]:
+                - generic [ref=e952]:
+                  - generic [ref=e954]:
+                    - generic [ref=e955]: "300"
+                    - generic [ref=e956]: "300"
+                  - generic [ref=e958]:
+                    - generic [ref=e959]: "400"
+                    - generic [ref=e960]: "400"
+                  - generic [ref=e962]:
+                    - generic [ref=e963]: "500"
+                    - generic [ref=e964]: "500"
+                  - generic [ref=e966]:
+                    - generic [ref=e967]: "600"
+                    - generic [ref=e968]: "600"
+                  - generic [ref=e970]:
+                    - generic [ref=e971]: "700"
+                    - generic [ref=e972]: "700"
+                  - generic [ref=e974]:
+                    - generic [ref=e975]: "800"
+                    - generic [ref=e976]: "800"
+                  - generic [ref=e978]:
+                    - generic [ref=e979]: "900"
+                    - generic [ref=e980]: "900"
+                  - generic [ref=e982]:
+                    - generic [ref=e983]: "1000"
+                    - generic [ref=e984]: "1000"
+                  - generic [ref=e986]:
+                    - generic [ref=e987]: "1100"
+                    - generic [ref=e988]: "1100"
+                  - generic [ref=e990]:
+                    - generic [ref=e991]: "1200"
+                    - generic [ref=e992]: "1200"
+                  - generic [ref=e994]:
+                    - generic [ref=e995]: "1300"
+                    - generic [ref=e996]: "1300"
+                  - generic [ref=e998]:
+                    - generic [ref=e999]: "1400"
+                    - generic [ref=e1000]: "1400"
+                  - generic [ref=e1002]:
+                    - generic [ref=e1003]: "1500"
+                    - generic [ref=e1004]: "1500"
+                  - generic [ref=e1006]:
+                    - generic [ref=e1007]: "1600"
+                    - generic [ref=e1008]: "1600"
+                  - generic [ref=e1010]:
+                    - generic [ref=e1011]: "1700"
+                    - generic [ref=e1012]: "1700"
+                  - generic [ref=e1014]:
+                    - generic [ref=e1015]: "1800"
+                    - generic [ref=e1016]: "1800"
+                  - generic [ref=e1018]:
+                    - generic [ref=e1019]: "1900"
+                    - generic [ref=e1020]: "1900"
+                  - generic [ref=e1022]:
+                    - generic [ref=e1023]: "2000"
+                    - generic [ref=e1024]: "2000"
+                  - generic [ref=e1026]:
+                    - generic [ref=e1027]: 21…
+                    - generic [ref=e1028]: 21…
+              - generic "A tabular representation of the data in the chart." [ref=e1030]:
+                - table [ref=e1031]:
+                  - rowgroup [ref=e1032]:
+                    - row "Datetime World Population" [ref=e1033]:
+                      - cell "Datetime" [ref=e1034]
+                      - cell "World Population" [ref=e1035]
+                  - rowgroup [ref=e1036]:
+                    - row "Jun 30, 200 190,000,000" [ref=e1037]:
+                      - cell "Jun 30, 200" [ref=e1038]
+                      - cell "190,000,000" [ref=e1039]
+                    - row "Jun 30, 600 200,000,000" [ref=e1040]:
+                      - cell "Jun 30, 600" [ref=e1041]
+                      - cell "200,000,000" [ref=e1042]
+                    - row "Jun 30, 700 210,000,000" [ref=e1043]:
+                      - cell "Jun 30, 700" [ref=e1044]
+                      - cell "210,000,000" [ref=e1045]
+                    - row "Jun 30, 800 220,000,000" [ref=e1046]:
+                      - cell "Jun 30, 800" [ref=e1047]
+                      - cell "220,000,000" [ref=e1048]
+                    - row "Jun 30, 900 240,000,000" [ref=e1049]:
+                      - cell "Jun 30, 900" [ref=e1050]
+                      - cell "240,000,000" [ref=e1051]
+                    - row "Jun 30, 1000 275,000,000" [ref=e1052]:
+                      - cell "Jun 30, 1000" [ref=e1053]
+                      - cell "275,000,000" [ref=e1054]
+                    - row "Jun 30, 1100 320,000,000" [ref=e1055]:
+                      - cell "Jun 30, 1100" [ref=e1056]
+                      - cell "320,000,000" [ref=e1057]
+                    - row "Jun 30, 1200 360,000,000" [ref=e1058]:
+                      - cell "Jun 30, 1200" [ref=e1059]
+                      - cell "360,000,000" [ref=e1060]
+                    - row "Jun 30, 1400 350,000,000" [ref=e1061]:
+                      - cell "Jun 30, 1400" [ref=e1062]
+                      - cell "350,000,000" [ref=e1063]
+                    - row "Jun 30, 1500 450,000,000" [ref=e1064]:
+                      - cell "Jun 30, 1500" [ref=e1065]
+                      - cell "450,000,000" [ref=e1066]
+                    - row "Jun 30, 1650 500,000,000" [ref=e1067]:
+                      - cell "Jun 30, 1650" [ref=e1068]
+                      - cell "500,000,000" [ref=e1069]
+                    - row "Jun 30, 1700 610,000,000" [ref=e1070]:
+                      - cell "Jun 30, 1700" [ref=e1071]
+                      - cell "610,000,000" [ref=e1072]
+                    - row "Jun 30, 1760 770,000,000" [ref=e1073]:
+                      - cell "Jun 30, 1760" [ref=e1074]
+                      - cell "770,000,000" [ref=e1075]
+                    - row "Jun 30, 1804 1,000,000,000" [ref=e1076]:
+                      - cell "Jun 30, 1804" [ref=e1077]
+                      - cell "1,000,000,000" [ref=e1078]
+                    - row "Jun 30, 1850 1,200,000,000" [ref=e1079]:
+                      - cell "Jun 30, 1850" [ref=e1080]
+                      - cell "1,200,000,000" [ref=e1081]
+                    - row "Jun 30, 1900 1,600,000,000" [ref=e1082]:
+                      - cell "Jun 30, 1900" [ref=e1083]
+                      - cell "1,600,000,000" [ref=e1084]
+                    - row "Jun 30, 1927 2,000,000,000" [ref=e1085]:
+                      - cell "Jun 30, 1927" [ref=e1086]
+                      - cell "2,000,000,000" [ref=e1087]
+                    - row "Jun 30, 1950 2,493,092,848" [ref=e1088]:
+                      - cell "Jun 30, 1950" [ref=e1089]
+                      - cell "2,493,092,848" [ref=e1090]
+                    - row "Jun 30, 1951 2,536,927,035" [ref=e1091]:
+                      - cell "Jun 30, 1951" [ref=e1092]
+                      - cell "2,536,927,035" [ref=e1093]
+                    - row "Jun 30, 1952 2,584,086,339" [ref=e1094]:
+                      - cell "Jun 30, 1952" [ref=e1095]
+                      - cell "2,584,086,339" [ref=e1096]
+                    - row "Jun 30, 1953 2,634,106,235" [ref=e1097]:
+                      - cell "Jun 30, 1953" [ref=e1098]
+                      - cell "2,634,106,235" [ref=e1099]
+                    - row "Jun 30, 1954 2,685,894,860" [ref=e1100]:
+                      - cell "Jun 30, 1954" [ref=e1101]
+                      - cell "2,685,894,860" [ref=e1102]
+                    - row "Jun 30, 1955 2,740,213,792" [ref=e1103]:
+                      - cell "Jun 30, 1955" [ref=e1104]
+                      - cell "2,740,213,792" [ref=e1105]
+                    - row "Jun 30, 1956 2,795,409,994" [ref=e1106]:
+                      - cell "Jun 30, 1956" [ref=e1107]
+                      - cell "2,795,409,994" [ref=e1108]
+                    - row "Jun 30, 1957 2,852,618,337" [ref=e1109]:
+                      - cell "Jun 30, 1957" [ref=e1110]
+                      - cell "2,852,618,337" [ref=e1111]
+                    - row "Jun 30, 1958 2,911,249,671" [ref=e1112]:
+                      - cell "Jun 30, 1958" [ref=e1113]
+                      - cell "2,911,249,671" [ref=e1114]
+                    - row "Jun 30, 1959 2,965,950,351" [ref=e1115]:
+                      - cell "Jun 30, 1959" [ref=e1116]
+                      - cell "2,965,950,351" [ref=e1117]
+                    - row "Jun 30, 1960 3,015,470,894" [ref=e1118]:
+                      - cell "Jun 30, 1960" [ref=e1119]
+                      - cell "3,015,470,894" [ref=e1120]
+                    - row "Jun 30, 1961 3,064,869,675" [ref=e1121]:
+                      - cell "Jun 30, 1961" [ref=e1122]
+                      - cell "3,064,869,675" [ref=e1123]
+                    - row "Jun 30, 1962 3,123,374,315" [ref=e1124]:
+                      - cell "Jun 30, 1962" [ref=e1125]
+                      - cell "3,123,374,315" [ref=e1126]
+                    - row "Jun 30, 1963 3,192,807,828" [ref=e1127]:
+                      - cell "Jun 30, 1963" [ref=e1128]
+                      - cell "3,192,807,828" [ref=e1129]
+                    - row "Jun 30, 1964 3,264,487,339" [ref=e1130]:
+                      - cell "Jun 30, 1964" [ref=e1131]
+                      - cell "3,264,487,339" [ref=e1132]
+                    - row "Jun 30, 1965 3,334,533,703" [ref=e1133]:
+                      - cell "Jun 30, 1965" [ref=e1134]
+                      - cell "3,334,533,703" [ref=e1135]
+                    - row "Jun 30, 1966 3,404,041,125" [ref=e1136]:
+                      - cell "Jun 30, 1966" [ref=e1137]
+                      - cell "3,404,041,125" [ref=e1138]
+                    - row "Jun 30, 1967 3,473,412,880" [ref=e1139]:
+                      - cell "Jun 30, 1967" [ref=e1140]
+                      - cell "3,473,412,880" [ref=e1141]
+                    - row "Jun 30, 1968 3,545,187,251" [ref=e1142]:
+                      - cell "Jun 30, 1968" [ref=e1143]
+                      - cell "3,545,187,251" [ref=e1144]
+                    - row "Jun 30, 1969 3,619,491,579" [ref=e1145]:
+                      - cell "Jun 30, 1969" [ref=e1146]
+                      - cell "3,619,491,579" [ref=e1147]
+                    - row "Jun 30, 1970 3,694,683,794" [ref=e1148]:
+                      - cell "Jun 30, 1970" [ref=e1149]
+                      - cell "3,694,683,794" [ref=e1150]
+                    - row "Jun 30, 1971 3,769,847,865" [ref=e1151]:
+                      - cell "Jun 30, 1971" [ref=e1152]
+                      - cell "3,769,847,865" [ref=e1153]
+                    - row "Jun 30, 1972 3,844,917,680" [ref=e1154]:
+                      - cell "Jun 30, 1972" [ref=e1155]
+                      - cell "3,844,917,680" [ref=e1156]
+                    - row "Jun 30, 1973 3,920,805,042" [ref=e1157]:
+                      - cell "Jun 30, 1973" [ref=e1158]
+                      - cell "3,920,805,042" [ref=e1159]
+                    - row "Jun 30, 1974 3,996,416,096" [ref=e1160]:
+                      - cell "Jun 30, 1974" [ref=e1161]
+                      - cell "3,996,416,096" [ref=e1162]
+                    - row "Jun 30, 1975 4,070,735,277" [ref=e1163]:
+                      - cell "Jun 30, 1975" [ref=e1164]
+                      - cell "4,070,735,277" [ref=e1165]
+                    - row "Jun 30, 1976 4,144,246,377" [ref=e1166]:
+                      - cell "Jun 30, 1976" [ref=e1167]
+                      - cell "4,144,246,377" [ref=e1168]
+                    - row "Jun 30, 1977 4,217,863,796" [ref=e1169]:
+                      - cell "Jun 30, 1977" [ref=e1170]
+                      - cell "4,217,863,796" [ref=e1171]
+                    - row "Jun 30, 1978 4,292,097,502" [ref=e1172]:
+                      - cell "Jun 30, 1978" [ref=e1173]
+                      - cell "4,292,097,502" [ref=e1174]
+                    - row "Jun 30, 1979 4,368,539,528" [ref=e1175]:
+                      - cell "Jun 30, 1979" [ref=e1176]
+                      - cell "4,368,539,528" [ref=e1177]
+                    - row "Jun 30, 1980 4,447,606,236" [ref=e1178]:
+                      - cell "Jun 30, 1980" [ref=e1179]
+                      - cell "4,447,606,236" [ref=e1180]
+                    - row "Jun 30, 1981 4,528,777,306" [ref=e1181]:
+                      - cell "Jun 30, 1981" [ref=e1182]
+                      - cell "4,528,777,306" [ref=e1183]
+                    - row "Jun 30, 1982 4,612,673,421" [ref=e1184]:
+                      - cell "Jun 30, 1982" [ref=e1185]
+                      - cell "4,612,673,421" [ref=e1186]
+                    - row "Jun 30, 1983 4,697,327,573" [ref=e1187]:
+                      - cell "Jun 30, 1983" [ref=e1188]
+                      - cell "4,697,327,573" [ref=e1189]
+                    - row "Jun 30, 1984 4,782,175,519" [ref=e1190]:
+                      - cell "Jun 30, 1984" [ref=e1191]
+                      - cell "4,782,175,519" [ref=e1192]
+                    - row "Jun 30, 1985 4,868,943,465" [ref=e1193]:
+                      - cell "Jun 30, 1985" [ref=e1194]
+                      - cell "4,868,943,465" [ref=e1195]
+                    - row "Jun 30, 1986 4,958,072,838" [ref=e1196]:
+                      - cell "Jun 30, 1986" [ref=e1197]
+                      - cell "4,958,072,838" [ref=e1198]
+                    - row "Jun 30, 1987 5,049,746,397" [ref=e1199]:
+                      - cell "Jun 30, 1987" [ref=e1200]
+                      - cell "5,049,746,397" [ref=e1201]
+                    - row "Jun 30, 1988 5,141,992,542" [ref=e1202]:
+                      - cell "Jun 30, 1988" [ref=e1203]
+                      - cell "5,141,992,542" [ref=e1204]
+                    - row "Jun 30, 1989 5,234,431,732" [ref=e1205]:
+                      - cell "Jun 30, 1989" [ref=e1206]
+                      - cell "5,234,431,732" [ref=e1207]
+                    - row "Jun 30, 1990 5,327,803,110" [ref=e1208]:
+                      - cell "Jun 30, 1990" [ref=e1209]
+                      - cell "5,327,803,110" [ref=e1210]
+                    - row "Jun 30, 1991 5,418,735,891" [ref=e1211]:
+                      - cell "Jun 30, 1991" [ref=e1212]
+                      - cell "5,418,735,891" [ref=e1213]
+                    - row "Jun 30, 1992 5,505,989,816" [ref=e1214]:
+                      - cell "Jun 30, 1992" [ref=e1215]
+                      - cell "5,505,989,816" [ref=e1216]
+                    - row "Jun 30, 1993 5,591,544,797" [ref=e1217]:
+                      - cell "Jun 30, 1993" [ref=e1218]
+                      - cell "5,591,544,797" [ref=e1219]
+                    - row "Jun 30, 1994 5,675,551,255" [ref=e1220]:
+                      - cell "Jun 30, 1994" [ref=e1221]
+                      - cell "5,675,551,255" [ref=e1222]
+                    - row "Jun 30, 1995 5,758,878,982" [ref=e1223]:
+                      - cell "Jun 30, 1995" [ref=e1224]
+                      - cell "5,758,878,982" [ref=e1225]
+                    - row "Jun 30, 1996 5,842,055,734" [ref=e1226]:
+                      - cell "Jun 30, 1996" [ref=e1227]
+                      - cell "5,842,055,734" [ref=e1228]
+                    - row "Jun 30, 1997 5,924,787,816" [ref=e1229]:
+                      - cell "Jun 30, 1997" [ref=e1230]
+                      - cell "5,924,787,816" [ref=e1231]
+                    - row "Jun 30, 1998 6,007,066,690" [ref=e1232]:
+                      - cell "Jun 30, 1998" [ref=e1233]
+                      - cell "6,007,066,690" [ref=e1234]
+                    - row "Jun 30, 1999 6,089,006,339" [ref=e1235]:
+                      - cell "Jun 30, 1999" [ref=e1236]
+                      - cell "6,089,006,339" [ref=e1237]
+                    - row "Jun 30, 2000 6,171,702,993" [ref=e1238]:
+                      - cell "Jun 30, 2000" [ref=e1239]
+                      - cell "6,171,702,993" [ref=e1240]
+                    - row "Jun 30, 2001 6,254,936,459" [ref=e1241]:
+                      - cell "Jun 30, 2001" [ref=e1242]
+                      - cell "6,254,936,459" [ref=e1243]
+                    - row "Jun 30, 2002 6,337,730,342" [ref=e1244]:
+                      - cell "Jun 30, 2002" [ref=e1245]
+                      - cell "6,337,730,342" [ref=e1246]
+                    - row "Jun 30, 2003 6,420,361,634" [ref=e1247]:
+                      - cell "Jun 30, 2003" [ref=e1248]
+                      - cell "6,420,361,634" [ref=e1249]
+                    - row "Jun 30, 2004 6,503,377,772" [ref=e1250]:
+                      - cell "Jun 30, 2004" [ref=e1251]
+                      - cell "6,503,377,772" [ref=e1252]
+                    - row "Jun 30, 2005 6,586,970,132" [ref=e1253]:
+                      - cell "Jun 30, 2005" [ref=e1254]
+                      - cell "6,586,970,132" [ref=e1255]
+                    - row "Jun 30, 2006 6,671,452,015" [ref=e1256]:
+                      - cell "Jun 30, 2006" [ref=e1257]
+                      - cell "6,671,452,015" [ref=e1258]
+                    - row "Jun 30, 2007 6,757,308,781" [ref=e1259]:
+                      - cell "Jun 30, 2007" [ref=e1260]
+                      - cell "6,757,308,781" [ref=e1261]
+                    - row "Jun 30, 2008 6,844,457,662" [ref=e1262]:
+                      - cell "Jun 30, 2008" [ref=e1263]
+                      - cell "6,844,457,662" [ref=e1264]
+                    - row "Jun 30, 2009 6,932,766,416" [ref=e1265]:
+                      - cell "Jun 30, 2009" [ref=e1266]
+                      - cell "6,932,766,416" [ref=e1267]
+                    - row "Jun 30, 2010 7,021,732,148" [ref=e1268]:
+                      - cell "Jun 30, 2010" [ref=e1269]
+                      - cell "7,021,732,148" [ref=e1270]
+                    - row "Jun 30, 2011 7,110,923,765" [ref=e1271]:
+                      - cell "Jun 30, 2011" [ref=e1272]
+                      - cell "7,110,923,765" [ref=e1273]
+                    - row "Jun 30, 2012 7,201,202,485" [ref=e1274]:
+                      - cell "Jun 30, 2012" [ref=e1275]
+                      - cell "7,201,202,485" [ref=e1276]
+                    - row "Jun 30, 2013 7,291,793,585" [ref=e1277]:
+                      - cell "Jun 30, 2013" [ref=e1278]
+                      - cell "7,291,793,585" [ref=e1279]
+                    - row "Jun 30, 2014 7,381,616,244" [ref=e1280]:
+                      - cell "Jun 30, 2014" [ref=e1281]
+                      - cell "7,381,616,244" [ref=e1282]
+                    - row "Jun 30, 2015 7,470,491,872" [ref=e1283]:
+                      - cell "Jun 30, 2015" [ref=e1284]
+                      - cell "7,470,491,872" [ref=e1285]
+                    - row "Jun 30, 2016 7,558,554,526" [ref=e1286]:
+                      - cell "Jun 30, 2016" [ref=e1287]
+                      - cell "7,558,554,526" [ref=e1288]
+                    - row "Jun 30, 2017 7,645,617,954" [ref=e1289]:
+                      - cell "Jun 30, 2017" [ref=e1290]
+                      - cell "7,645,617,954" [ref=e1291]
+                    - row "Jun 30, 2018 7,729,902,781" [ref=e1292]:
+                      - cell "Jun 30, 2018" [ref=e1293]
+                      - cell "7,729,902,781" [ref=e1294]
+                    - row "Jun 30, 2019 7,811,293,698" [ref=e1295]:
+                      - cell "Jun 30, 2019" [ref=e1296]
+                      - cell "7,811,293,698" [ref=e1297]
+                    - row "Jun 30, 2020 7,887,001,292" [ref=e1298]:
+                      - cell "Jun 30, 2020" [ref=e1299]
+                      - cell "7,887,001,292" [ref=e1300]
+                    - row "Jun 30, 2021 7,954,448,391" [ref=e1301]:
+                      - cell "Jun 30, 2021" [ref=e1302]
+                      - cell "7,954,448,391" [ref=e1303]
+                    - row "Jun 30, 2022 8,021,407,192" [ref=e1304]:
+                      - cell "Jun 30, 2022" [ref=e1305]
+                      - cell "8,021,407,192" [ref=e1306]
+                    - row "Jun 30, 2023 8,091,734,930" [ref=e1307]:
+                      - cell "Jun 30, 2023" [ref=e1308]
+                      - cell "8,091,734,930" [ref=e1309]
+                    - row "Jun 30, 2024 8,161,972,572" [ref=e1310]:
+                      - cell "Jun 30, 2024" [ref=e1311]
+                      - cell "8,161,972,572" [ref=e1312]
+                    - row "Jun 30, 2025 8,231,613,070" [ref=e1313]:
+                      - cell "Jun 30, 2025" [ref=e1314]
+                      - cell "8,231,613,070" [ref=e1315]
+                    - row "Jun 30, 2026 8,300,678,395" [ref=e1316]:
+                      - cell "Jun 30, 2026" [ref=e1317]
+                      - cell "8,300,678,395" [ref=e1318]
+                    - row "Jun 30, 2027 8,369,094,344" [ref=e1319]:
+                      - cell "Jun 30, 2027" [ref=e1320]
+                      - cell "8,369,094,344" [ref=e1321]
+                    - row "Jun 30, 2028 8,436,618,886" [ref=e1322]:
+                      - cell "Jun 30, 2028" [ref=e1323]
+                      - cell "8,436,618,886" [ref=e1324]
+                    - row "Jun 30, 2029 8,503,285,323" [ref=e1325]:
+                      - cell "Jun 30, 2029" [ref=e1326]
+                      - cell "8,503,285,323" [ref=e1327]
+                    - row "Jun 30, 2030 8,569,124,911" [ref=e1328]:
+                      - cell "Jun 30, 2030" [ref=e1329]
+                      - cell "8,569,124,911" [ref=e1330]
+                    - row "Jun 30, 2031 8,634,119,333" [ref=e1331]:
+                      - cell "Jun 30, 2031" [ref=e1332]
+                      - cell "8,634,119,333" [ref=e1333]
+                    - row "Jun 30, 2032 8,698,229,812" [ref=e1334]:
+                      - cell "Jun 30, 2032" [ref=e1335]
+                      - cell "8,698,229,812" [ref=e1336]
+                    - row "Jun 30, 2033 8,761,449,081" [ref=e1337]:
+                      - cell "Jun 30, 2033" [ref=e1338]
+                      - cell "8,761,449,081" [ref=e1339]
+                    - row "Jun 30, 2034 8,823,784,909" [ref=e1340]:
+                      - cell "Jun 30, 2034" [ref=e1341]
+                      - cell "8,823,784,909" [ref=e1342]
+                    - row "Jun 30, 2035 8,885,210,181" [ref=e1343]:
+                      - cell "Jun 30, 2035" [ref=e1344]
+                      - cell "8,885,210,181" [ref=e1345]
+                    - row "Jun 30, 2036 8,945,686,614" [ref=e1346]:
+                      - cell "Jun 30, 2036" [ref=e1347]
+                      - cell "8,945,686,614" [ref=e1348]
+                    - row "Jun 30, 2037 9,005,152,624" [ref=e1349]:
+                      - cell "Jun 30, 2037" [ref=e1350]
+                      - cell "9,005,152,624" [ref=e1351]
+                    - row "Jun 30, 2038 9,063,572,926" [ref=e1352]:
+                      - cell "Jun 30, 2038" [ref=e1353]
+                      - cell "9,063,572,926" [ref=e1354]
+                    - row "Jun 30, 2039 9,120,928,380" [ref=e1355]:
+                      - cell "Jun 30, 2039" [ref=e1356]
+                      - cell "9,120,928,380" [ref=e1357]
+                    - row "Jun 30, 2040 9,177,190,203" [ref=e1358]:
+                      - cell "Jun 30, 2040" [ref=e1359]
+                      - cell "9,177,190,203" [ref=e1360]
+                    - row "Jun 30, 2041 9,232,281,575" [ref=e1361]:
+                      - cell "Jun 30, 2041" [ref=e1362]
+                      - cell "9,232,281,575" [ref=e1363]
+                    - row "Jun 30, 2042 9,286,110,371" [ref=e1364]:
+                      - cell "Jun 30, 2042" [ref=e1365]
+                      - cell "9,286,110,371" [ref=e1366]
+                    - row "Jun 30, 2043 9,338,661,314" [ref=e1367]:
+                      - cell "Jun 30, 2043" [ref=e1368]
+                      - cell "9,338,661,314" [ref=e1369]
+                    - row "Jun 30, 2044 9,389,873,693" [ref=e1370]:
+                      - cell "Jun 30, 2044" [ref=e1371]
+                      - cell "9,389,873,693" [ref=e1372]
+                    - row "Jun 30, 2045 9,439,639,668" [ref=e1373]:
+                      - cell "Jun 30, 2045" [ref=e1374]
+                      - cell "9,439,639,668" [ref=e1375]
+                    - row "Jun 30, 2046 9,487,889,604" [ref=e1376]:
+                      - cell "Jun 30, 2046" [ref=e1377]
+                      - cell "9,487,889,604" [ref=e1378]
+                    - row "Jun 30, 2047 9,534,545,977" [ref=e1379]:
+                      - cell "Jun 30, 2047" [ref=e1380]
+                      - cell "9,534,545,977" [ref=e1381]
+                    - row "Jun 30, 2048 9,579,536,043" [ref=e1382]:
+                      - cell "Jun 30, 2048" [ref=e1383]
+                      - cell "9,579,536,043" [ref=e1384]
+                    - row "Jun 30, 2049 9,622,824,029" [ref=e1385]:
+                      - cell "Jun 30, 2049" [ref=e1386]
+                      - cell "9,622,824,029" [ref=e1387]
+                    - row "Jun 30, 2050 9,664,378,587" [ref=e1388]:
+                      - cell "Jun 30, 2050" [ref=e1389]
+                      - cell "9,664,378,587" [ref=e1390]
+                    - row "Jun 30, 2051 9,704,192,304" [ref=e1391]:
+                      - cell "Jun 30, 2051" [ref=e1392]
+                      - cell "9,704,192,304" [ref=e1393]
+                    - row "Jun 30, 2052 9,742,264,515" [ref=e1394]:
+                      - cell "Jun 30, 2052" [ref=e1395]
+                      - cell "9,742,264,515" [ref=e1396]
+                    - row "Jun 30, 2053 9,778,614,614" [ref=e1397]:
+                      - cell "Jun 30, 2053" [ref=e1398]
+                      - cell "9,778,614,614" [ref=e1399]
+                    - row "Jun 30, 2054 9,813,251,659" [ref=e1400]:
+                      - cell "Jun 30, 2054" [ref=e1401]
+                      - cell "9,813,251,659" [ref=e1402]
+                    - row "Jun 30, 2055 9,846,237,570" [ref=e1403]:
+                      - cell "Jun 30, 2055" [ref=e1404]
+                      - cell "9,846,237,570" [ref=e1405]
+                    - row "Jun 30, 2056 9,877,680,392" [ref=e1406]:
+                      - cell "Jun 30, 2056" [ref=e1407]
+                      - cell "9,877,680,392" [ref=e1408]
+                    - row "Jun 30, 2057 9,907,637,193" [ref=e1409]:
+                      - cell "Jun 30, 2057" [ref=e1410]
+                      - cell "9,907,637,193" [ref=e1411]
+                    - row "Jun 30, 2058 9,936,164,379" [ref=e1412]:
+                      - cell "Jun 30, 2058" [ref=e1413]
+                      - cell "9,936,164,379" [ref=e1414]
+                    - row "Jun 30, 2059 9,963,337,082" [ref=e1415]:
+                      - cell "Jun 30, 2059" [ref=e1416]
+                      - cell "9,963,337,082" [ref=e1417]
+                    - row "Jun 30, 2060 9,989,232,292" [ref=e1418]:
+                      - cell "Jun 30, 2060" [ref=e1419]
+                      - cell "9,989,232,292" [ref=e1420]
+                    - row "Jun 30, 2061 10,013,916,213" [ref=e1421]:
+                      - cell "Jun 30, 2061" [ref=e1422]
+                      - cell "10,013,916,213" [ref=e1423]
+                    - row "Jun 30, 2062 10,037,466,600" [ref=e1424]:
+                      - cell "Jun 30, 2062" [ref=e1425]
+                      - cell "10,037,466,600" [ref=e1426]
+                    - row "Jun 30, 2063 10,059,950,035" [ref=e1427]:
+                      - cell "Jun 30, 2063" [ref=e1428]
+                      - cell "10,059,950,035" [ref=e1429]
+                    - row "Jun 30, 2064 10,081,402,737" [ref=e1430]:
+                      - cell "Jun 30, 2064" [ref=e1431]
+                      - cell "10,081,402,737" [ref=e1432]
+                    - row "Jun 30, 2065 10,101,849,561" [ref=e1433]:
+                      - cell "Jun 30, 2065" [ref=e1434]
+                      - cell "10,101,849,561" [ref=e1435]
+                    - row "Jun 30, 2066 10,121,317,107" [ref=e1436]:
+                      - cell "Jun 30, 2066" [ref=e1437]
+                      - cell "10,121,317,107" [ref=e1438]
+                    - row "Jun 30, 2067 10,139,808,361" [ref=e1439]:
+                      - cell "Jun 30, 2067" [ref=e1440]
+                      - cell "10,139,808,361" [ref=e1441]
+                    - row "Jun 30, 2068 10,157,301,941" [ref=e1442]:
+                      - cell "Jun 30, 2068" [ref=e1443]
+                      - cell "10,157,301,941" [ref=e1444]
+                    - row "Jun 30, 2069 10,173,782,135" [ref=e1445]:
+                      - cell "Jun 30, 2069" [ref=e1446]
+                      - cell "10,173,782,135" [ref=e1447]
+                    - row "Jun 30, 2070 10,189,241,959" [ref=e1448]:
+                      - cell "Jun 30, 2070" [ref=e1449]
+                      - cell "10,189,241,959" [ref=e1450]
+                    - row "Jun 30, 2071 10,203,681,568" [ref=e1451]:
+                      - cell "Jun 30, 2071" [ref=e1452]
+                      - cell "10,203,681,568" [ref=e1453]
+                    - row "Jun 30, 2072 10,217,055,169" [ref=e1454]:
+                      - cell "Jun 30, 2072" [ref=e1455]
+                      - cell "10,217,055,169" [ref=e1456]
+                    - row "Jun 30, 2073 10,229,327,824" [ref=e1457]:
+                      - cell "Jun 30, 2073" [ref=e1458]
+                      - cell "10,229,327,824" [ref=e1459]
+                    - row "Jun 30, 2074 10,240,485,056" [ref=e1460]:
+                      - cell "Jun 30, 2074" [ref=e1461]
+                      - cell "10,240,485,056" [ref=e1462]
+                    - row "Jun 30, 2075 10,250,496,432" [ref=e1463]:
+                      - cell "Jun 30, 2075" [ref=e1464]
+                      - cell "10,250,496,432" [ref=e1465]
+                    - row "Jun 30, 2076 10,259,351,432" [ref=e1466]:
+                      - cell "Jun 30, 2076" [ref=e1467]
+                      - cell "10,259,351,432" [ref=e1468]
+                    - row "Jun 30, 2077 10,267,045,023" [ref=e1469]:
+                      - cell "Jun 30, 2077" [ref=e1470]
+                      - cell "10,267,045,023" [ref=e1471]
+                    - row "Jun 30, 2078 10,273,556,322" [ref=e1472]:
+                      - cell "Jun 30, 2078" [ref=e1473]
+                      - cell "10,273,556,322" [ref=e1474]
+                    - row "Jun 30, 2079 10,278,887,473" [ref=e1475]:
+                      - cell "Jun 30, 2079" [ref=e1476]
+                      - cell "10,278,887,473" [ref=e1477]
+                    - row "Jun 30, 2080 10,283,078,029" [ref=e1478]:
+                      - cell "Jun 30, 2080" [ref=e1479]
+                      - cell "10,283,078,029" [ref=e1480]
+                    - row "Jun 30, 2081 10,286,161,735" [ref=e1481]:
+                      - cell "Jun 30, 2081" [ref=e1482]
+                      - cell "10,286,161,735" [ref=e1483]
+                    - row "Jun 30, 2082 10,288,205,050" [ref=e1484]:
+                      - cell "Jun 30, 2082" [ref=e1485]
+                      - cell "10,288,205,050" [ref=e1486]
+                    - row "Jun 30, 2083 10,289,247,323" [ref=e1487]:
+                      - cell "Jun 30, 2083" [ref=e1488]
+                      - cell "10,289,247,323" [ref=e1489]
+                    - row "Jun 30, 2084 10,289,315,244" [ref=e1490]:
+                      - cell "Jun 30, 2084" [ref=e1491]
+                      - cell "10,289,315,244" [ref=e1492]
+                    - row "Jun 30, 2085 10,288,456,599" [ref=e1493]:
+                      - cell "Jun 30, 2085" [ref=e1494]
+                      - cell "10,288,456,599" [ref=e1495]
+                    - row "Jun 30, 2086 10,286,708,360" [ref=e1496]:
+                      - cell "Jun 30, 2086" [ref=e1497]
+                      - cell "10,286,708,360" [ref=e1498]
+                    - row "Jun 30, 2087 10,284,111,374" [ref=e1499]:
+                      - cell "Jun 30, 2087" [ref=e1500]
+                      - cell "10,284,111,374" [ref=e1501]
+                    - row "Jun 30, 2088 10,280,704,572" [ref=e1502]:
+                      - cell "Jun 30, 2088" [ref=e1503]
+                      - cell "10,280,704,572" [ref=e1504]
+                    - row "Jun 30, 2089 10,276,518,280" [ref=e1505]:
+                      - cell "Jun 30, 2089" [ref=e1506]
+                      - cell "10,276,518,280" [ref=e1507]
+                    - row "Jun 30, 2090 10,271,565,070" [ref=e1508]:
+                      - cell "Jun 30, 2090" [ref=e1509]
+                      - cell "10,271,565,070" [ref=e1510]
+                    - row "Jun 30, 2091 10,265,861,714" [ref=e1511]:
+                      - cell "Jun 30, 2091" [ref=e1512]
+                      - cell "10,265,861,714" [ref=e1513]
+                    - row "Jun 30, 2092 10,259,408,375" [ref=e1514]:
+                      - cell "Jun 30, 2092" [ref=e1515]
+                      - cell "10,259,408,375" [ref=e1516]
+                    - row "Jun 30, 2093 10,252,184,759" [ref=e1517]:
+                      - cell "Jun 30, 2093" [ref=e1518]
+                      - cell "10,252,184,759" [ref=e1519]
+                    - row "Jun 30, 2094 10,244,185,837" [ref=e1520]:
+                      - cell "Jun 30, 2094" [ref=e1521]
+                      - cell "10,244,185,837" [ref=e1522]
+                    - row "Jun 30, 2095 10,235,403,601" [ref=e1523]:
+                      - cell "Jun 30, 2095" [ref=e1524]
+                      - cell "10,235,403,601" [ref=e1525]
+                    - row "Jun 30, 2096 10,225,850,874" [ref=e1526]:
+                      - cell "Jun 30, 2096" [ref=e1527]
+                      - cell "10,225,850,874" [ref=e1528]
+                    - row "Jun 30, 2097 10,215,549,310" [ref=e1529]:
+                      - cell "Jun 30, 2097" [ref=e1530]
+                      - cell "10,215,549,310" [ref=e1531]
+                    - row "Jun 30, 2098 10,204,489,862" [ref=e1532]:
+                      - cell "Jun 30, 2098" [ref=e1533]
+                      - cell "10,204,489,862" [ref=e1534]
+                    - row "Jun 30, 2099 10,192,689,066" [ref=e1535]:
+                      - cell "Jun 30, 2099" [ref=e1536]
+                      - cell "10,192,689,066" [ref=e1537]
+                    - row "Jun 30, 2100 10,180,160,751" [ref=e1538]:
+                      - cell "Jun 30, 2100" [ref=e1539]
+                      - cell "10,180,160,751" [ref=e1540]
+            - img "A chart." [ref=e1542]
+        - paragraph [ref=e1553]:
+          - text: The chart above illustrates how world population has changed throughout history.
+          - link "View the full tabulated data." [ref=e1554] [cursor=pointer]:
+            - /url: /world-population/world-population-by-year/
+        - paragraph [ref=e1555]: At the dawn of agriculture, about 8000 B.C., the population of the world was approximately 5 million. Over the 8,000-year period up to 1 A.D. it grew to 200 million (some estimate 300 million or even 600, suggesting how imprecise population estimates of early historical periods can be), with a growth rate of under 0.05% per year.
+        - paragraph [ref=e1556]:
+          - text: "A tremendous change occurred with the industrial revolution: whereas"
+          - strong [ref=e1557]: it had taken all of human history until around 1800 for world population to reach one billion
+          - text: ", the second billion was achieved in only 130 years (1930), the third billion in 30 years (1960), the fourth billion in 15 years (1974), and the fifth billion in only 13 years (1987)."
+        - list [ref=e1558]:
+          - listitem [ref=e1559]: During the 20th century alone, the population in the world has grown from 1.65 billion to 6 billion.
+          - listitem [ref=e1560]: In 1970, there were roughly half as many people in the world as there are now.
+          - listitem [ref=e1561]:
+            - text: Because of declining
+            - link "growth rates" [ref=e1562] [cursor=pointer]:
+              - /url: "#growthrate"
+            - text: ", it will now take over 200 years to double again."
+        - paragraph [ref=e1563]: Wonder how big was the world's population when you were born?
+        - paragraph [ref=e1564]:
+          - text: Check out this
+          - link "simple wizard" [ref=e1565] [cursor=pointer]:
+            - /url: https://www.theguardian.com/environment/interactive/2011/oct/24/how-big-worlds-population-born
+          - text: or this
+          - link "more elaborated" [ref=e1566] [cursor=pointer]:
+            - /url: http://www.bbc.co.uk/news/world-15391515
+          - text: one to find out.
+        - paragraph [ref=e1567]: "Sources:"
+        - list [ref=e1568]:
+          - listitem [ref=e1569]:
+            - 'link "World Population Prospects: The 2024 Revision" [ref=e1570] [cursor=pointer]':
+              - /url: https://population.un.org/wpp
+            - text: "- United Nations Population Division"
+          - listitem [ref=e1571]:
+            - link "The World at Six Billion, World Population, Year 0 to near stabilization" [ref=e1572] [cursor=pointer]:
+              - /url: https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/files/documents/2020/Jan/un_1999_6billion.pdf
+            - text: "[Pdf file] - United Nations Population Division"
+        - heading "Growth Rate" [level=2] [ref=e1573]
+        - button "back to top ↑" [ref=e1575] [cursor=pointer]
+        - generic [ref=e1576]: Yearly Population Growth Rate (%)
+        - generic "A chart." [ref=e1582]:
+          - img "A chart." [ref=e1583]:
+            - generic [ref=e1586]: Yearly Growth Rate
+            - generic [ref=e1593]: Yearly Growth Rate
+            - generic [ref=e1701]:
+              - generic [ref=e1703]: "1955"
+              - generic [ref=e1705]: "1960"
+              - generic [ref=e1707]: "1965"
+              - generic [ref=e1709]: "1970"
+              - generic [ref=e1711]: "1975"
+              - generic [ref=e1713]: "1980"
+              - generic [ref=e1715]: "1985"
+              - generic [ref=e1717]: "1990"
+              - generic [ref=e1719]: "1995"
+              - generic [ref=e1721]: "2000"
+              - generic [ref=e1723]: "2005"
+              - generic [ref=e1725]: "2010"
+              - generic [ref=e1727]: "2015"
+              - generic [ref=e1729]: "2020"
+              - generic [ref=e1731]: "2025"
+              - generic [ref=e1733]: 0.0%
+              - generic [ref=e1735]: 0.5%
+              - generic [ref=e1737]: 1.0%
+              - generic [ref=e1739]: 1.5%
+              - generic [ref=e1741]: 2.0%
+              - generic [ref=e1743]: 2.5%
+          - generic "A tabular representation of the data in the chart." [ref=e1744]:
+            - table [ref=e1745]:
+              - rowgroup [ref=e1746]:
+                - row "Year Yearly Growth Rate" [ref=e1747]:
+                  - cell "Year" [ref=e1748]
+                  - cell "Yearly Growth Rate" [ref=e1749]
+              - rowgroup [ref=e1750]:
+                - row "1951" [ref=e1751]:
+                  - cell "1951" [ref=e1752]
+                  - cell [ref=e1753]
+                - row "1952 1.86%" [ref=e1754]:
+                  - cell "1952" [ref=e1755]
+                  - cell "1.86%" [ref=e1756]
+                - row "1953 1.94%" [ref=e1757]:
+                  - cell "1953" [ref=e1758]
+                  - cell "1.94%" [ref=e1759]
+                - row "1954 1.97%" [ref=e1760]:
+                  - cell "1954" [ref=e1761]
+                  - cell "1.97%" [ref=e1762]
+                - row "1955 2.02%" [ref=e1763]:
+                  - cell "1955" [ref=e1764]
+                  - cell "2.02%" [ref=e1765]
+                - row "1956 2.01%" [ref=e1766]:
+                  - cell "1956" [ref=e1767]
+                  - cell "2.01%" [ref=e1768]
+                - row "1957 2.05%" [ref=e1769]:
+                  - cell "1957" [ref=e1770]
+                  - cell "2.05%" [ref=e1771]
+                - row "1958 2.06%" [ref=e1772]:
+                  - cell "1958" [ref=e1773]
+                  - cell "2.06%" [ref=e1774]
+                - row "1959 1.88%" [ref=e1775]:
+                  - cell "1959" [ref=e1776]
+                  - cell "1.88%" [ref=e1777]
+                - row "1960 1.67%" [ref=e1778]:
+                  - cell "1960" [ref=e1779]
+                  - cell "1.67%" [ref=e1780]
+                - row "1961 1.64%" [ref=e1781]:
+                  - cell "1961" [ref=e1782]
+                  - cell "1.64%" [ref=e1783]
+                - row "1962 1.91%" [ref=e1784]:
+                  - cell "1962" [ref=e1785]
+                  - cell "1.91%" [ref=e1786]
+                - row "1963 2.22%" [ref=e1787]:
+                  - cell "1963" [ref=e1788]
+                  - cell "2.22%" [ref=e1789]
+                - row "1964 2.25%" [ref=e1790]:
+                  - cell "1964" [ref=e1791]
+                  - cell "2.25%" [ref=e1792]
+                - row "1965 2.15%" [ref=e1793]:
+                  - cell "1965" [ref=e1794]
+                  - cell "2.15%" [ref=e1795]
+                - row "1966 2.08%" [ref=e1796]:
+                  - cell "1966" [ref=e1797]
+                  - cell "2.08%" [ref=e1798]
+                - row "1967 2.04%" [ref=e1799]:
+                  - cell "1967" [ref=e1800]
+                  - cell "2.04%" [ref=e1801]
+                - row "1968 2.07%" [ref=e1802]:
+                  - cell "1968" [ref=e1803]
+                  - cell "2.07%" [ref=e1804]
+                - row "1969 2.10%" [ref=e1805]:
+                  - cell "1969" [ref=e1806]
+                  - cell "2.10%" [ref=e1807]
+                - row "1970 2.08%" [ref=e1808]:
+                  - cell "1970" [ref=e1809]
+                  - cell "2.08%" [ref=e1810]
+                - row "1971 2.03%" [ref=e1811]:
+                  - cell "1971" [ref=e1812]
+                  - cell "2.03%" [ref=e1813]
+                - row "1972 1.99%" [ref=e1814]:
+                  - cell "1972" [ref=e1815]
+                  - cell "1.99%" [ref=e1816]
+                - row "1973 1.97%" [ref=e1817]:
+                  - cell "1973" [ref=e1818]
+                  - cell "1.97%" [ref=e1819]
+                - row "1974 1.93%" [ref=e1820]:
+                  - cell "1974" [ref=e1821]
+                  - cell "1.93%" [ref=e1822]
+                - row "1975 1.86%" [ref=e1823]:
+                  - cell "1975" [ref=e1824]
+                  - cell "1.86%" [ref=e1825]
+                - row "1976 1.81%" [ref=e1826]:
+                  - cell "1976" [ref=e1827]
+                  - cell "1.81%" [ref=e1828]
+                - row "1977 1.78%" [ref=e1829]:
+                  - cell "1977" [ref=e1830]
+                  - cell "1.78%" [ref=e1831]
+                - row "1978 1.76%" [ref=e1832]:
+                  - cell "1978" [ref=e1833]
+                  - cell "1.76%" [ref=e1834]
+                - row "1979 1.78%" [ref=e1835]:
+                  - cell "1979" [ref=e1836]
+                  - cell "1.78%" [ref=e1837]
+                - row "1980 1.81%" [ref=e1838]:
+                  - cell "1980" [ref=e1839]
+                  - cell "1.81%" [ref=e1840]
+                - row "1981 1.83%" [ref=e1841]:
+                  - cell "1981" [ref=e1842]
+                  - cell "1.83%" [ref=e1843]
+                - row "1982 1.85%" [ref=e1844]:
+                  - cell "1982" [ref=e1845]
+                  - cell "1.85%" [ref=e1846]
+                - row "1983 1.84%" [ref=e1847]:
+                  - cell "1983" [ref=e1848]
+                  - cell "1.84%" [ref=e1849]
+                - row "1984 1.81%" [ref=e1850]:
+                  - cell "1984" [ref=e1851]
+                  - cell "1.81%" [ref=e1852]
+                - row "1985 1.81%" [ref=e1853]:
+                  - cell "1985" [ref=e1854]
+                  - cell "1.81%" [ref=e1855]
+                - row "1986 1.83%" [ref=e1856]:
+                  - cell "1986" [ref=e1857]
+                  - cell "1.83%" [ref=e1858]
+                - row "1987 1.85%" [ref=e1859]:
+                  - cell "1987" [ref=e1860]
+                  - cell "1.85%" [ref=e1861]
+                - row "1988 1.83%" [ref=e1862]:
+                  - cell "1988" [ref=e1863]
+                  - cell "1.83%" [ref=e1864]
+                - row "1989 1.80%" [ref=e1865]:
+                  - cell "1989" [ref=e1866]
+                  - cell "1.80%" [ref=e1867]
+                - row "1990 1.78%" [ref=e1868]:
+                  - cell "1990" [ref=e1869]
+                  - cell "1.78%" [ref=e1870]
+                - row "1991 1.71%" [ref=e1871]:
+                  - cell "1991" [ref=e1872]
+                  - cell "1.71%" [ref=e1873]
+                - row "1992 1.61%" [ref=e1874]:
+                  - cell "1992" [ref=e1875]
+                  - cell "1.61%" [ref=e1876]
+                - row "1993 1.55%" [ref=e1877]:
+                  - cell "1993" [ref=e1878]
+                  - cell "1.55%" [ref=e1879]
+                - row "1994 1.50%" [ref=e1880]:
+                  - cell "1994" [ref=e1881]
+                  - cell "1.50%" [ref=e1882]
+                - row "1995 1.47%" [ref=e1883]:
+                  - cell "1995" [ref=e1884]
+                  - cell "1.47%" [ref=e1885]
+                - row "1996 1.44%" [ref=e1886]:
+                  - cell "1996" [ref=e1887]
+                  - cell "1.44%" [ref=e1888]
+                - row "1997 1.42%" [ref=e1889]:
+                  - cell "1997" [ref=e1890]
+                  - cell "1.42%" [ref=e1891]
+                - row "1998 1.39%" [ref=e1892]:
+                  - cell "1998" [ref=e1893]
+                  - cell "1.39%" [ref=e1894]
+                - row "1999 1.36%" [ref=e1895]:
+                  - cell "1999" [ref=e1896]
+                  - cell "1.36%" [ref=e1897]
+                - row "2000 1.36%" [ref=e1898]:
+                  - cell "2000" [ref=e1899]
+                  - cell "1.36%" [ref=e1900]
+                - row "2001 1.35%" [ref=e1901]:
+                  - cell "2001" [ref=e1902]
+                  - cell "1.35%" [ref=e1903]
+                - row "2002 1.32%" [ref=e1904]:
+                  - cell "2002" [ref=e1905]
+                  - cell "1.32%" [ref=e1906]
+                - row "2003 1.30%" [ref=e1907]:
+                  - cell "2003" [ref=e1908]
+                  - cell "1.30%" [ref=e1909]
+                - row "2004 1.29%" [ref=e1910]:
+                  - cell "2004" [ref=e1911]
+                  - cell "1.29%" [ref=e1912]
+                - row "2005 1.29%" [ref=e1913]:
+                  - cell "2005" [ref=e1914]
+                  - cell "1.29%" [ref=e1915]
+                - row "2006 1.28%" [ref=e1916]:
+                  - cell "2006" [ref=e1917]
+                  - cell "1.28%" [ref=e1918]
+                - row "2007 1.29%" [ref=e1919]:
+                  - cell "2007" [ref=e1920]
+                  - cell "1.29%" [ref=e1921]
+                - row "2008 1.29%" [ref=e1922]:
+                  - cell "2008" [ref=e1923]
+                  - cell "1.29%" [ref=e1924]
+                - row "2009 1.29%" [ref=e1925]:
+                  - cell "2009" [ref=e1926]
+                  - cell "1.29%" [ref=e1927]
+                - row "2010 1.28%" [ref=e1928]:
+                  - cell "2010" [ref=e1929]
+                  - cell "1.28%" [ref=e1930]
+                - row "2011 1.27%" [ref=e1931]:
+                  - cell "2011" [ref=e1932]
+                  - cell "1.27%" [ref=e1933]
+                - row "2012 1.27%" [ref=e1934]:
+                  - cell "2012" [ref=e1935]
+                  - cell "1.27%" [ref=e1936]
+                - row "2013 1.26%" [ref=e1937]:
+                  - cell "2013" [ref=e1938]
+                  - cell "1.26%" [ref=e1939]
+                - row "2014 1.23%" [ref=e1940]:
+                  - cell "2014" [ref=e1941]
+                  - cell "1.23%" [ref=e1942]
+                - row "2015 1.20%" [ref=e1943]:
+                  - cell "2015" [ref=e1944]
+                  - cell "1.20%" [ref=e1945]
+                - row "2016 1.18%" [ref=e1946]:
+                  - cell "2016" [ref=e1947]
+                  - cell "1.18%" [ref=e1948]
+                - row "2017 1.15%" [ref=e1949]:
+                  - cell "2017" [ref=e1950]
+                  - cell "1.15%" [ref=e1951]
+                - row "2018 1.10%" [ref=e1952]:
+                  - cell "2018" [ref=e1953]
+                  - cell "1.10%" [ref=e1954]
+                - row "2019 1.05%" [ref=e1955]:
+                  - cell "2019" [ref=e1956]
+                  - cell "1.05%" [ref=e1957]
+                - row "2020 0.97%" [ref=e1958]:
+                  - cell "2020" [ref=e1959]
+                  - cell "0.97%" [ref=e1960]
+                - row "2021 0.86%" [ref=e1961]:
+                  - cell "2021" [ref=e1962]
+                  - cell "0.86%" [ref=e1963]
+                - row "2022 0.84%" [ref=e1964]:
+                  - cell "2022" [ref=e1965]
+                  - cell "0.84%" [ref=e1966]
+                - row "2023 0.88%" [ref=e1967]:
+                  - cell "2023" [ref=e1968]
+                  - cell "0.88%" [ref=e1969]
+                - row "2024 0.87%" [ref=e1970]:
+                  - cell "2024" [ref=e1971]
+                  - cell "0.87%" [ref=e1972]
+                - row "2025 0.85%" [ref=e1973]:
+                  - cell "2025" [ref=e1974]
+                  - cell "0.85%" [ref=e1975]
+        - paragraph [ref=e1976]:
+          - text: Population in the world is growing at a rate of around
+          - strong [ref=e1977]: 0.85%
+          - text: per year in 2025 (down from 0.97% in 2020, and 1.25% in 2015). The current population increase is estimated at around
+          - strong [ref=e1978]: 70 million people per year
+          - text: .
+        - paragraph [ref=e1979]: Annual growth rate reached its peak in the mid 1960s, when it was at around 2%. The rate of increase has nearly halved since then, and will continue to decline in the coming years.
+        - paragraph [ref=e1980]:
+          - text: World population will therefore continue to grow in the 21st century, but at a
+          - strong [ref=e1981]: much slower rate compared to the recent past
+          - text: . World population has doubled (100% increase) in 40 years from 1959 (3 billion) to 1999 (6 billion). It is now estimated that it will increase by 50% in the subsequent 40 years, to reach 9 billion by 2037.
+        - paragraph [ref=e1982]:
+          - text: The latest
+          - link "world population projections" [ref=e1983] [cursor=pointer]:
+            - /url: /world-population/world-population-projections/
+          - text: indicate that world population will reach 10 billion persons in the year 2060 and 10.2 billion in 2100.
+        - heading "World Population (2025 and historical)" [level=2] [ref=e1985]
+        - paragraph [ref=e1986]:
+          - link "View the complete population historical table" [ref=e1987] [cursor=pointer]:
+            - /url: /world-population/world-population-by-year/
+        - generic [ref=e1989]:
+          - table [ref=e1992]:
+            - rowgroup [ref=e1993]:
+              - row "Year (July 1) Population Yearly % Change Yearly Change Median Age Fertility Rate Density (P/Km²)" [ref=e1994]:
+                - cell "Year (July 1)" [ref=e1995]
+                - cell "Population" [ref=e1996]
+                - cell "Yearly % Change" [ref=e1997]
+                - cell "Yearly Change" [ref=e1998]
+                - cell "Median Age" [ref=e1999]
+                - cell "Fertility Rate" [ref=e2000]
+                - cell "Density (P/Km²)" [ref=e2001]
+            - rowgroup [ref=e2002]:
+              - row "2025 8,231,613,070 0.85% 69,640,498 30.9 2.24 55" [ref=e2003]:
+                - cell "2025" [ref=e2004]
+                - cell "8,231,613,070" [ref=e2005]
+                - cell "0.85%" [ref=e2006]
+                - cell "69,640,498" [ref=e2007]
+                - cell "30.9" [ref=e2008]
+                - cell "2.24" [ref=e2009]
+                - cell "55" [ref=e2010]
+              - row "2024 8,161,972,572 0.87% 70,237,642 30.6 2.25 55" [ref=e2011]:
+                - cell "2024" [ref=e2012]
+                - cell "8,161,972,572" [ref=e2013]
+                - cell "0.87%" [ref=e2014]
+                - cell "70,237,642" [ref=e2015]
+                - cell "30.6" [ref=e2016]
+                - cell "2.25" [ref=e2017]
+                - cell "55" [ref=e2018]
+              - row "2023 8,091,734,930 0.88% 70,327,738 30.4 2.25 54" [ref=e2019]:
+                - cell "2023" [ref=e2020]
+                - cell "8,091,734,930" [ref=e2021]
+                - cell "0.88%" [ref=e2022]
+                - cell "70,327,738" [ref=e2023]
+                - cell "30.4" [ref=e2024]
+                - cell "2.25" [ref=e2025]
+                - cell "54" [ref=e2026]
+              - row "2022 8,021,407,192 0.84% 66,958,801 30.1 2.27 54" [ref=e2027]:
+                - cell "2022" [ref=e2028]
+                - cell "8,021,407,192" [ref=e2029]
+                - cell "0.84%" [ref=e2030]
+                - cell "66,958,801" [ref=e2031]
+                - cell "30.1" [ref=e2032]
+                - cell "2.27" [ref=e2033]
+                - cell "54" [ref=e2034]
+              - row "2021 7,954,448,391 0.86% 67,447,099 29.8 2.29 53" [ref=e2035]:
+                - cell "2021" [ref=e2036]
+                - cell "7,954,448,391" [ref=e2037]
+                - cell "0.86%" [ref=e2038]
+                - cell "67,447,099" [ref=e2039]
+                - cell "29.8" [ref=e2040]
+                - cell "2.29" [ref=e2041]
+                - cell "53" [ref=e2042]
+              - row "2020 7,887,001,292 1.09% 83,301,884 29.6 2.32 53" [ref=e2043]:
+                - cell "2020" [ref=e2044]
+                - cell "7,887,001,292" [ref=e2045]
+                - cell "1.09%" [ref=e2046]
+                - cell "83,301,884" [ref=e2047]
+                - cell "29.6" [ref=e2048]
+                - cell "2.32" [ref=e2049]
+                - cell "53" [ref=e2050]
+              - row "2015 7,470,491,872 1.25% 89,751,945 28.3 2.54 50" [ref=e2051]:
+                - cell "2015" [ref=e2052]
+                - cell "7,470,491,872" [ref=e2053]
+                - cell "1.25%" [ref=e2054]
+                - cell "89,751,945" [ref=e2055]
+                - cell "28.3" [ref=e2056]
+                - cell "2.54" [ref=e2057]
+                - cell "50" [ref=e2058]
+              - row "2010 7,021,732,148 1.29% 86,952,403 27.2 2.6 47" [ref=e2059]:
+                - cell "2010" [ref=e2060]
+                - cell "7,021,732,148" [ref=e2061]
+                - cell "1.29%" [ref=e2062]
+                - cell "86,952,403" [ref=e2063]
+                - cell "27.2" [ref=e2064]
+                - cell "2.6" [ref=e2065]
+                - cell "47" [ref=e2066]
+              - row "2005 6,586,970,132 1.31% 83,053,428 26.1 2.63 44" [ref=e2067]:
+                - cell "2005" [ref=e2068]
+                - cell "6,586,970,132" [ref=e2069]
+                - cell "1.31%" [ref=e2070]
+                - cell "83,053,428" [ref=e2071]
+                - cell "26.1" [ref=e2072]
+                - cell "2.63" [ref=e2073]
+                - cell "44" [ref=e2074]
+              - row "2000 6,171,702,993 1.39% 82,564,802 25.1 2.75 41" [ref=e2075]:
+                - cell "2000" [ref=e2076]
+                - cell "6,171,702,993" [ref=e2077]
+                - cell "1.39%" [ref=e2078]
+                - cell "82,564,802" [ref=e2079]
+                - cell "25.1" [ref=e2080]
+                - cell "2.75" [ref=e2081]
+                - cell "41" [ref=e2082]
+              - row "1995 5,758,878,982 1.57% 86,215,174 24 2.89 39" [ref=e2083]:
+                - cell "1995" [ref=e2084]
+                - cell "5,758,878,982" [ref=e2085]
+                - cell "1.57%" [ref=e2086]
+                - cell "86,215,174" [ref=e2087]
+                - cell "24" [ref=e2088]
+                - cell "2.89" [ref=e2089]
+                - cell "39" [ref=e2090]
+              - row "1990 5,327,803,110 1.82% 91,771,929 22.9 3.31 36" [ref=e2091]:
+                - cell "1990" [ref=e2092]
+                - cell "5,327,803,110" [ref=e2093]
+                - cell "1.82%" [ref=e2094]
+                - cell "91,771,929" [ref=e2095]
+                - cell "22.9" [ref=e2096]
+                - cell "3.31" [ref=e2097]
+                - cell "36" [ref=e2098]
+              - row "1985 4,868,943,465 1.83% 84,267,446 22 3.52 33" [ref=e2099]:
+                - cell "1985" [ref=e2100]
+                - cell "4,868,943,465" [ref=e2101]
+                - cell "1.83%" [ref=e2102]
+                - cell "84,267,446" [ref=e2103]
+                - cell "22" [ref=e2104]
+                - cell "3.52" [ref=e2105]
+                - cell "33" [ref=e2106]
+              - row "1980 4,447,606,236 1.79% 75,374,192 21.5 3.74 30" [ref=e2107]:
+                - cell "1980" [ref=e2108]
+                - cell "4,447,606,236" [ref=e2109]
+                - cell "1.79%" [ref=e2110]
+                - cell "75,374,192" [ref=e2111]
+                - cell "21.5" [ref=e2112]
+                - cell "3.74" [ref=e2113]
+                - cell "30" [ref=e2114]
+              - row "1975 4,070,735,277 1.96% 75,210,297 20.7 4.08 27" [ref=e2115]:
+                - cell "1975" [ref=e2116]
+                - cell "4,070,735,277" [ref=e2117]
+                - cell "1.96%" [ref=e2118]
+                - cell "75,210,297" [ref=e2119]
+                - cell "20.7" [ref=e2120]
+                - cell "4.08" [ref=e2121]
+                - cell "27" [ref=e2122]
+              - row "1970 3,694,683,794 2.07% 72,030,018 20.3 4.83 25" [ref=e2123]:
+                - cell "1970" [ref=e2124]
+                - cell "3,694,683,794" [ref=e2125]
+                - cell "2.07%" [ref=e2126]
+                - cell "72,030,018" [ref=e2127]
+                - cell "20.3" [ref=e2128]
+                - cell "4.83" [ref=e2129]
+                - cell "25" [ref=e2130]
+              - row "1965 3,334,533,703 2.03% 63,812,562 20.8 5.07 22" [ref=e2131]:
+                - cell "1965" [ref=e2132]
+                - cell "3,334,533,703" [ref=e2133]
+                - cell "2.03%" [ref=e2134]
+                - cell "63,812,562" [ref=e2135]
+                - cell "20.8" [ref=e2136]
+                - cell "5.07" [ref=e2137]
+                - cell "22" [ref=e2138]
+              - row "1960 3,015,470,894 1.93% 55,051,420 21.5 4.7 20" [ref=e2139]:
+                - cell "1960" [ref=e2140]
+                - cell "3,015,470,894" [ref=e2141]
+                - cell "1.93%" [ref=e2142]
+                - cell "55,051,420" [ref=e2143]
+                - cell "21.5" [ref=e2144]
+                - cell "4.7" [ref=e2145]
+                - cell "20" [ref=e2146]
+              - row "1955 2,740,213,792 1.91% 49,424,189 21.8 5 18" [ref=e2147]:
+                - cell "1955" [ref=e2148]
+                - cell "2,740,213,792" [ref=e2149]
+                - cell "1.91%" [ref=e2150]
+                - cell "49,424,189" [ref=e2151]
+                - cell "21.8" [ref=e2152]
+                - cell "5" [ref=e2153]
+                - cell "18" [ref=e2154]
+          - generic:
+            - navigation:
+              - list
+        - generic [ref=e2156]:
+          - paragraph [ref=e2157]:
+            - text: "Source:"
+            - strong [ref=e2158]: Worldometer
+            - text: (
+            - link "www.Worldometers.info" [ref=e2159] [cursor=pointer]:
+              - /url: /
+            - text: )
+          - paragraph [ref=e2160]:
+            - text: Elaboration of data by United Nations, Department of Economic and Social Affairs, Population Division.
+            - 'link "World Population Prospects: The 2024 Revision" [ref=e2161] [cursor=pointer]':
+              - /url: https://population.un.org/wpp/
+            - text: . (Medium-fertility variant).
+        - button "back to top ↑" [ref=e2163] [cursor=pointer]
+        - heading "World Population Forecast (2030-2050)" [level=2] [ref=e2164]
+        - paragraph [ref=e2165]:
+          - link "View population projections for all years (up to 2100)" [ref=e2166] [cursor=pointer]:
+            - /url: /world-population/world-population-projections/
+        - generic [ref=e2168]:
+          - table [ref=e2171]:
+            - rowgroup [ref=e2172]:
+              - row "Year (July 1) Population Yearly % Change Yearly Change Median Age Fertility Rate Density (P/Km²)" [ref=e2173]:
+                - cell "Year (July 1)" [ref=e2174]
+                - cell "Population" [ref=e2175]
+                - cell "Yearly % Change" [ref=e2176]
+                - cell "Yearly Change" [ref=e2177]
+                - cell "Median Age" [ref=e2178]
+                - cell "Fertility Rate" [ref=e2179]
+                - cell "Density (P/Km²)" [ref=e2180]
+            - rowgroup [ref=e2181]:
+              - row "2030 8,569,124,911 0.81% 67,502,368 32 2.2 58" [ref=e2182]:
+                - cell "2030" [ref=e2183]
+                - cell "8,569,124,911" [ref=e2184]
+                - cell "0.81%" [ref=e2185]
+                - cell "67,502,368" [ref=e2186]
+                - cell "32" [ref=e2187]
+                - cell "2.2" [ref=e2188]
+                - cell "58" [ref=e2189]
+              - row "2035 8,885,210,181 0.73% 63,217,054 33 2.15 60" [ref=e2190]:
+                - cell "2035" [ref=e2191]
+                - cell "8,885,210,181" [ref=e2192]
+                - cell "0.73%" [ref=e2193]
+                - cell "63,217,054" [ref=e2194]
+                - cell "33" [ref=e2195]
+                - cell "2.15" [ref=e2196]
+                - cell "60" [ref=e2197]
+              - row "2040 9,177,190,203 0.65% 58,396,004 34 2.13 62" [ref=e2198]:
+                - cell "2040" [ref=e2199]
+                - cell "9,177,190,203" [ref=e2200]
+                - cell "0.65%" [ref=e2201]
+                - cell "58,396,004" [ref=e2202]
+                - cell "34" [ref=e2203]
+                - cell "2.13" [ref=e2204]
+                - cell "62" [ref=e2205]
+              - row "2045 9,439,639,668 0.57% 52,489,893 35 2.12 63" [ref=e2206]:
+                - cell "2045" [ref=e2207]
+                - cell "9,439,639,668" [ref=e2208]
+                - cell "0.57%" [ref=e2209]
+                - cell "52,489,893" [ref=e2210]
+                - cell "35" [ref=e2211]
+                - cell "2.12" [ref=e2212]
+                - cell "63" [ref=e2213]
+              - row "2050 9,664,378,587 0.47% 44,947,784 36.1 2.1 65" [ref=e2214]:
+                - cell "2050" [ref=e2215]
+                - cell "9,664,378,587" [ref=e2216]
+                - cell "0.47%" [ref=e2217]
+                - cell "44,947,784" [ref=e2218]
+                - cell "36.1" [ref=e2219]
+                - cell "2.1" [ref=e2220]
+                - cell "65" [ref=e2221]
+          - generic:
+            - navigation:
+              - list
+        - generic [ref=e2222]:
+          - paragraph [ref=e2223]:
+            - text: "Source:"
+            - strong [ref=e2224]: Worldometer
+            - text: (
+            - link "www.Worldometers.info" [ref=e2225] [cursor=pointer]:
+              - /url: /
+            - text: )
+          - paragraph [ref=e2226]:
+            - text: Elaboration of data by United Nations, Department of Economic and Social Affairs, Population Division.
+            - 'link "World Population Prospects: The 2024 Revision" [ref=e2227] [cursor=pointer]':
+              - /url: https://population.un.org/wpp/
+            - text: . (Medium-fertility variant).
+        - heading "World Population Milestones" [level=2] [ref=e2229]
+        - button "back to top ↑" [ref=e2231] [cursor=pointer]
+        - heading "10 Billion (2060)" [level=3] [ref=e2232]
+        - paragraph [ref=e2233]: The United Nations projects world population will reach 10 billion in the year 2060.
+        - heading "9 Billion (2037)" [level=3] [ref=e2234]
+        - paragraph [ref=e2235]: World population is expected to reach 9 billion in the year 2037.
+        - heading "8.2 Billion (current)" [level=3] [ref=e2236]
+        - paragraph [ref=e2237]:
+          - text: The current world population is
+          - strong [ref=e2238]:
+            - generic [ref=e2239]: 8,252,977,175
+          - text: as of
+          - generic [ref=e2240]: Thursday, October 23, 2025
+          - text: according to the most recent United Nations estimates
+          - link "[1]" [ref=e2241] [cursor=pointer]:
+            - /url: "#ref-1"
+          - text: elaborated by Worldometer. The term "World Population" refers to the human population (the total number of humans currently living) of the world.
+        - heading "8 Billion (2022)" [level=3] [ref=e2242]
+        - paragraph [ref=e2243]:
+          - text: World population has reached
+          - strong [ref=e2244]: 8 billion people in the first half of 2022
+          - text: ", according to the United Nations (after being previously estimated to occur on"
+          - link "November 15, 2022)" [ref=e2245] [cursor=pointer]:
+            - /url: https://www.un.org/en/dayof8billion
+          - text: . The U.S. Census Bureau
+          - link "International Database (IDB)" [ref=e2246] [cursor=pointer]:
+            - /url: https://www.census.gov/programs-surveys/international-programs/about/idb.html
+          - text: "estimates instead that the world population hit 8 billion on September 26, 2023. In their note, the U.S. Census Bureau added: \""
+          - emphasis [ref=e2247]: Emphasis on the word estimates. There are many sources of uncertainty in estimating the global population, and it's unlikely this population milestone was reached on that exact date
+          - text: "\""
+          - link "[source]" [ref=e2248] [cursor=pointer]:
+            - /url: https://www.census.gov/library/stories/2023/11/world-population-estimated-eight-billion.html#:~:text=For%20example%2C%20the%20United%20Nations,above%205%20children%20per%20woman.
+        - heading "7 Billion (2010)" [level=3] [ref=e2249]
+        - paragraph [ref=e2250]:
+          - text: According to the latest revision by the United Nations (released in 2024), world population reached
+          - strong [ref=e2251]: 7 Billion in the first half of 2010
+          - text: (after being previously estimated as occurring on October 31, 2011). The U.S. Census Bureau made a different estimate, for which the 7 billion mark was
+          - link "reached on March 12, 2012" [ref=e2252] [cursor=pointer]:
+            - /url: https://www.census.gov/newsroom/blogs/random-samplings/2011/10/the-world-population-at-7-billion.html
+          - text: .
+        - heading "6 Billion (1998)" [level=3] [ref=e2253]
+        - paragraph [ref=e2254]:
+          - text: According to the latest revision by the United Nations (released in 2024), the
+          - strong [ref=e2255]: 6 billion figure was reached in the first half of 1998
+          - text: (this was previously estimated as occurring on October 12, 1999, celebrated as the
+          - emphasis [ref=e2256]: Day of 6 Billion
+          - text: ). According to the U.S. Census Bureau instead, the six billion milestone was reached on July 22, 1999, at about 3:49 AM GMT. Yet, according to the U.S. Census Bureau, the date and time of when 6 billion was reached will probably change because the already uncertain estimates are constantly being updated.
+        - heading "Previous Milestones" [level=3] [ref=e2257]
+        - list [ref=e2258]:
+          - listitem [ref=e2259]: "5 Billion: 1986"
+          - listitem [ref=e2260]: "4 Billion: 1974"
+          - listitem [ref=e2261]: "3 Billion: 1960"
+          - listitem [ref=e2262]: "2 Billion: 1930"
+          - listitem [ref=e2263]: "1 Billion: 1804"
+        - heading "Summary Table" [level=3] [ref=e2264]
+        - generic [ref=e2265]:
+          - generic [ref=e2266]:
+            - paragraph [ref=e2267]:
+              - text: 1 - 1804 (
+              - strong [ref=e2268]: 1803 years)
+              - text: ": 0.2 to 1 bil."
+            - paragraph [ref=e2269]:
+              - text: 1804 - 2022 (
+              - strong [ref=e2270]: 218 years
+              - text: "): from 1 billion to 8 billion"
+          - table [ref=e2272]:
+            - rowgroup [ref=e2273]:
+              - row "Year 1 1000 1500 1650 1750 1804 1850 1900 1930 1950 1960 1974 1980 1987 1998 2010 2022 2029 2037 2046 2060 2100" [ref=e2274]:
+                - cell "Year" [ref=e2275]
+                - cell "1" [ref=e2276]
+                - cell "1000" [ref=e2277]
+                - cell "1500" [ref=e2278]
+                - cell "1650" [ref=e2279]
+                - cell "1750" [ref=e2280]
+                - cell "1804" [ref=e2281]
+                - cell "1850" [ref=e2282]
+                - cell "1900" [ref=e2283]
+                - cell "1930" [ref=e2284]
+                - cell "1950" [ref=e2285]
+                - cell "1960" [ref=e2286]
+                - cell "1974" [ref=e2287]
+                - cell "1980" [ref=e2288]
+                - cell "1987" [ref=e2289]
+                - cell "1998" [ref=e2290]
+                - cell "2010" [ref=e2291]
+                - cell "2022" [ref=e2292]:
+                  - strong [ref=e2293]: "2022"
+                - cell "2029" [ref=e2294]
+                - cell "2037" [ref=e2295]
+                - cell "2046" [ref=e2296]
+                - cell "2060" [ref=e2297]
+                - cell "2100" [ref=e2298]
+            - rowgroup [ref=e2299]:
+              - row "Population 0.2 0.275 0.45 0.5 0.7 1 1.2 1.6 2 2.55 3 4 4.5 5 6 7 8 8.5 9 9.5 10 10.2" [ref=e2300]:
+                - cell "Population" [ref=e2301]
+                - cell "0.2" [ref=e2302]
+                - cell "0.275" [ref=e2303]
+                - cell "0.45" [ref=e2304]
+                - cell "0.5" [ref=e2305]
+                - cell "0.7" [ref=e2306]
+                - cell "1" [ref=e2307]:
+                  - strong [ref=e2308]: "1"
+                - cell "1.2" [ref=e2309]
+                - cell "1.6" [ref=e2310]
+                - cell "2" [ref=e2311]:
+                  - strong [ref=e2312]: "2"
+                - cell "2.55" [ref=e2313]
+                - cell "3" [ref=e2314]:
+                  - strong [ref=e2315]: "3"
+                - cell "4" [ref=e2316]:
+                  - strong [ref=e2317]: "4"
+                - cell "4.5" [ref=e2318]
+                - cell "5" [ref=e2319]:
+                  - strong [ref=e2320]: "5"
+                - cell "6" [ref=e2321]:
+                  - strong [ref=e2322]: "6"
+                - cell "7" [ref=e2323]:
+                  - strong [ref=e2324]: "7"
+                - cell "8" [ref=e2325]:
+                  - strong [ref=e2326]: "8"
+                - cell "8.5" [ref=e2327]
+                - cell "9" [ref=e2328]:
+                  - strong [ref=e2329]: "9"
+                - cell "9.5" [ref=e2330]
+                - cell "10" [ref=e2331]:
+                  - strong [ref=e2332]: "10"
+                - cell "10.2" [ref=e2333]
+        - heading "World Population by Region" [level=2] [ref=e2335]
+        - button "back to top ↑" [ref=e2337] [cursor=pointer]
+        - generic [ref=e2339]:
+          - table [ref=e2342]:
+            - rowgroup [ref=e2343]:
+              - row "# Region Population (2025) Yearly Change Net Change Density (P/Km²) Land Area (Km²) Migrants (net) Fert. Rate Median Age Urban Pop % World Share" [ref=e2344]:
+                - cell "#" [ref=e2345]
+                - cell "Region" [ref=e2346]
+                - cell "Population (2025)" [ref=e2347]
+                - cell "Yearly Change" [ref=e2348]
+                - cell "Net Change" [ref=e2349]
+                - cell "Density (P/Km²)" [ref=e2350]
+                - cell "Land Area (Km²)" [ref=e2351]
+                - cell "Migrants (net)" [ref=e2352]
+                - cell "Fert. Rate" [ref=e2353]
+                - cell "Median Age" [ref=e2354]
+                - cell "Urban Pop %" [ref=e2355]
+                - cell "World Share" [ref=e2356]
+            - rowgroup [ref=e2357]:
+              - row "1 Asia 4,835,320,060 0.59% 28,422,053 156 31,033,131 −2,389,647 1.87 32.5 53.6% 58.74%" [ref=e2358]:
+                - cell "1" [ref=e2359]
+                - cell "Asia" [ref=e2360]:
+                  - link "Asia" [ref=e2361] [cursor=pointer]:
+                    - /url: /population/asia/
+                - cell "4,835,320,060" [ref=e2362]
+                - cell "0.59%" [ref=e2363]
+                - cell "28,422,053" [ref=e2364]
+                - cell "156" [ref=e2365]
+                - cell "31,033,131" [ref=e2366]
+                - cell "−2,389,647" [ref=e2367]
+                - cell "1.87" [ref=e2368]
+                - cell "32.5" [ref=e2369]
+                - cell "53.6%" [ref=e2370]
+                - cell "58.74%" [ref=e2371]
+              - row "2 Africa 1,549,867,579 2.29% 34,726,730 52 29,648,481 −377,785 3.95 19.3 45% 18.83%" [ref=e2372]:
+                - cell "2" [ref=e2373]
+                - cell "Africa" [ref=e2374]:
+                  - link "Africa" [ref=e2375] [cursor=pointer]:
+                    - /url: /population/africa/
+                - cell "1,549,867,579" [ref=e2376]
+                - cell "2.29%" [ref=e2377]
+                - cell "34,726,730" [ref=e2378]
+                - cell "52" [ref=e2379]
+                - cell "29,648,481" [ref=e2380]
+                - cell "−377,785" [ref=e2381]
+                - cell "3.95" [ref=e2382]
+                - cell "19.3" [ref=e2383]
+                - cell "45%" [ref=e2384]
+                - cell "18.83%" [ref=e2385]
+              - row "3 Europe 744,398,832 −0.09% −684,992 34 22,134,900 1,478,090 1.41 42.8 75.9% 9.04%" [ref=e2386]:
+                - cell "3" [ref=e2387]
+                - cell "Europe" [ref=e2388]:
+                  - link "Europe" [ref=e2389] [cursor=pointer]:
+                    - /url: /population/europe/
+                - cell "744,398,832" [ref=e2390]
+                - cell "−0.09%" [ref=e2391]
+                - cell "−684,992" [ref=e2392]
+                - cell "34" [ref=e2393]
+                - cell "22,134,900" [ref=e2394]
+                - cell "1,478,090" [ref=e2395]
+                - cell "1.41" [ref=e2396]
+                - cell "42.8" [ref=e2397]
+                - cell "75.9%" [ref=e2398]
+                - cell "9.04%" [ref=e2399]
+              - row "4 Latin America and the Caribbean 667,888,552 0.67% 4,422,480 33 20,139,378 −406,036 1.78 31.7 85.5% 8.11%" [ref=e2400]:
+                - cell "4" [ref=e2401]
+                - cell "Latin America and the Caribbean" [ref=e2402]:
+                  - link "Latin America and the Caribbean" [ref=e2403] [cursor=pointer]:
+                    - /url: /population/latin-america-and-the-caribbean/
+                - cell "667,888,552" [ref=e2404]
+                - cell "0.67%" [ref=e2405]
+                - cell "4,422,480" [ref=e2406]
+                - cell "33" [ref=e2407]
+                - cell "20,139,378" [ref=e2408]
+                - cell "−406,036" [ref=e2409]
+                - cell "1.78" [ref=e2410]
+                - cell "31.7" [ref=e2411]
+                - cell "85.5%" [ref=e2412]
+                - cell "8.11%" [ref=e2413]
+              - row "5 Northern America 387,528,403 0.58% 2,233,298 21 18,651,660 1,556,592 1.59 38.7 82.5% 4.71%" [ref=e2414]:
+                - cell "5" [ref=e2415]
+                - cell "Northern America" [ref=e2416]:
+                  - link "Northern America" [ref=e2417] [cursor=pointer]:
+                    - /url: /population/northern-america/
+                - cell "387,528,403" [ref=e2418]
+                - cell "0.58%" [ref=e2419]
+                - cell "2,233,298" [ref=e2420]
+                - cell "21" [ref=e2421]
+                - cell "18,651,660" [ref=e2422]
+                - cell "1,556,592" [ref=e2423]
+                - cell "1.59" [ref=e2424]
+                - cell "38.7" [ref=e2425]
+                - cell "82.5%" [ref=e2426]
+                - cell "4.71%" [ref=e2427]
+              - row "6 Oceania 46,609,644 1.13% 520,928 5 8,486,460 140,121 2.13 33.4 66.2% 0.57%" [ref=e2428]:
+                - cell "6" [ref=e2429]
+                - cell "Oceania" [ref=e2430]:
+                  - link "Oceania" [ref=e2431] [cursor=pointer]:
+                    - /url: /population/oceania/
+                - cell "46,609,644" [ref=e2432]
+                - cell "1.13%" [ref=e2433]
+                - cell "520,928" [ref=e2434]
+                - cell "5" [ref=e2435]
+                - cell "8,486,460" [ref=e2436]
+                - cell "140,121" [ref=e2437]
+                - cell "2.13" [ref=e2438]
+                - cell "33.4" [ref=e2439]
+                - cell "66.2%" [ref=e2440]
+                - cell "0.57%" [ref=e2441]
+          - generic:
+            - navigation:
+              - list
+        - heading "World Population Density (people/km2)" [level=2] [ref=e2442]:
+          - text: World Population Density (people/km
+          - superscript [ref=e2443]: "2"
+          - text: )
+        - button "back to top ↑" [ref=e2445] [cursor=pointer]
+        - paragraph [ref=e2446]:
+          - text: "Population density map of the world showing not only countries but also many subdivisions (regions, states, provinces). See also:"
+          - link "World Map" [ref=e2447] [cursor=pointer]:
+            - /url: /world-map/
+        - img "World Population Density Map" [ref=e2448]
+        - paragraph [ref=e2449]:
+          - text: Courtesy of
+          - link "Junuxx" [ref=e2450] [cursor=pointer]:
+            - /url: https://en.wikipedia.org/wiki/User:Junuxx
+          - text: at
+          - link "en.wikipedia" [ref=e2451] [cursor=pointer]:
+            - /url: http://en.wikipedia.org
+          - text: "["
+          - link "CC-BY-SA-3.0" [ref=e2452] [cursor=pointer]:
+            - /url: http://creativecommons.org/licenses/by-sa/3.0
+          - text: or
+          - link "GFDL" [ref=e2453] [cursor=pointer]:
+            - /url: http://www.gnu.org/copyleft/fdl.html
+          - text: "],"
+          - link "via Wikimedia Commons" [ref=e2454] [cursor=pointer]:
+            - /url: http://commons.wikimedia.org/wiki/File%3ACountries_and_regions_by_population_density.png
+        - heading "World Population by Religion" [level=2] [ref=e2455]
+        - button "back to top ↑" [ref=e2457] [cursor=pointer]
+        - paragraph [ref=e2458]:
+          - text: According to a study (based on the 2010 world population of 6.9 billion) by
+          - link "The Pew Forum" [ref=e2459] [cursor=pointer]:
+            - /url: http://www.pewforum.org/global-religious-landscape-unaffiliated.aspx
+          - text: ", there are:"
+        - list [ref=e2460]:
+          - listitem [ref=e2461]:
+            - strong [ref=e2462]: 2,173,180,000 Christians
+            - text: (
+            - strong [ref=e2463]: 31%
+            - text: of world population), of which 50% are Catholic, 37% Protestant, 12% Orthodox, and 1% other.
+          - listitem [ref=e2464]:
+            - strong [ref=e2465]: 1,598,510,000 Muslims (23%)
+            - text: ", of which 87-90% are Sunnis, 10-13% Shia."
+          - listitem [ref=e2466]:
+            - strong [ref=e2467]: 1,126,500,000 No Religion affiliation (16%)
+            - text: ": atheists, agnostics and people who do not identify with any particular religion. One-in-five people (20%) in the United States are religiously unaffiliated."
+          - listitem [ref=e2468]:
+            - strong [ref=e2469]: 1,033,080,000 Hindus (15%)
+            - text: ", the overwhelming majority (94%) of which live in India."
+          - listitem [ref=e2470]:
+            - strong [ref=e2471]: 487,540,000 Buddhists (7%)
+            - text: ", of which half live in China."
+          - listitem [ref=e2472]:
+            - strong [ref=e2473]: 405,120,000 Folk Religionists (6%)
+            - text: ": faiths that are closely associated with a particular group of people, ethnicity or tribe."
+          - listitem [ref=e2474]:
+            - strong [ref=e2475]: 58,110,000 Other Religions (1%)
+            - text: ": Baha'i faith, Taoism, Jainism, Shintoism, Sikhism, Tenrikyo, Wicca, Zoroastrianism and many others."
+          - listitem [ref=e2476]:
+            - strong [ref=e2477]: 13,850,000 Jews (0.2%)
+            - text: ", four-fifths of which live in two countries: United States (41%) and Israel (41%)."
+        - generic "A chart." [ref=e2483]:
+          - img "A chart." [ref=e2484]:
+            - generic [ref=e2487]: Size of Major Religious Groups
+            - generic [ref=e2489]:
+              - generic [ref=e2494]: Christians
+              - generic [ref=e2499]: Muslims
+              - generic [ref=e2504]: None
+              - generic [ref=e2509]: Hindus
+              - generic [ref=e2514]: Buddhists
+              - generic [ref=e2519]: Folk Religionists
+              - generic [ref=e2524]: Other Religions
+              - generic [ref=e2529]: Jews
+            - generic [ref=e2533]: 31.5%
+            - generic [ref=e2540]: 5.9%
+            - generic [ref=e2543]: 7.1%
+            - generic [ref=e2546]: 15%
+            - generic [ref=e2549]: 16.3%
+            - generic [ref=e2552]: 23.2%
+          - generic "A tabular representation of the data in the chart." [ref=e2553]:
+            - table [ref=e2554]:
+              - rowgroup [ref=e2555]:
+                - row "Major Religious Groups Percentage of the global population" [ref=e2556]:
+                  - cell "Major Religious Groups" [ref=e2557]
+                  - cell "Percentage of the global population" [ref=e2558]
+              - rowgroup [ref=e2559]:
+                - row "Christians 2,173,180,000" [ref=e2560]:
+                  - cell "Christians" [ref=e2561]
+                  - cell "2,173,180,000" [ref=e2562]
+                - row "Muslims 1,598,510,000" [ref=e2563]:
+                  - cell "Muslims" [ref=e2564]
+                  - cell "1,598,510,000" [ref=e2565]
+                - row "None 1,126,500,000" [ref=e2566]:
+                  - cell "None" [ref=e2567]
+                  - cell "1,126,500,000" [ref=e2568]
+                - row "Hindus 1,033,080,000" [ref=e2569]:
+                  - cell "Hindus" [ref=e2570]
+                  - cell "1,033,080,000" [ref=e2571]
+                - row "Buddhists 487,540,000" [ref=e2572]:
+                  - cell "Buddhists" [ref=e2573]
+                  - cell "487,540,000" [ref=e2574]
+                - row "Folk Religionists 405,120,000" [ref=e2575]:
+                  - cell "Folk Religionists" [ref=e2576]
+                  - cell "405,120,000" [ref=e2577]
+                - row "Other Religions 58,110,000" [ref=e2578]:
+                  - cell "Other Religions" [ref=e2579]
+                  - cell "58,110,000" [ref=e2580]
+                - row "Jews 13,850,000" [ref=e2581]:
+                  - cell "Jews" [ref=e2582]
+                  - cell "13,850,000" [ref=e2583]
+        - link "Religions World Map" [ref=e2584] [cursor=pointer]:
+          - /url: https://commons.wikimedia.org/wiki/File%3APrevailing_world_religions_map_rus.png
+          - img "Religions World Map" [ref=e2585]
+        - heading "World Population by Country" [level=2] [ref=e2586]
+        - generic [ref=e2588]:
+          - generic [ref=e2589]:
+            - generic [ref=e2591]:
+              - combobox "entries per page" [ref=e2592]:
+                - option "10" [selected]
+                - option "25"
+                - option "50"
+                - option "100"
+              - text: entries per page
+            - searchbox "Search within table" [ref=e2594]
+          - table [ref=e2597]:
+            - rowgroup [ref=e2598]:
+              - row "# Country (or dependency) Population 2025 Yearly Change Net Change Density (P/Km²) Land Area (Km²) Migrants (net) Fert. Rate Median Age Urban Pop % World Share" [ref=e2599]:
+                - cell "#" [ref=e2600]:
+                  - button "#" [ref=e2601] [cursor=pointer]:
+                    - generic [ref=e2602]: "#"
+                    - img [ref=e2603]
+                - cell "Country (or dependency)" [ref=e2605]:
+                  - button "Country (or dependency)" [ref=e2606] [cursor=pointer]:
+                    - generic [ref=e2607]: Country (or dependency)
+                    - img [ref=e2608]
+                - cell "Population 2025" [ref=e2610]:
+                  - button "Population 2025" [ref=e2611] [cursor=pointer]:
+                    - generic [ref=e2612]: Population 2025
+                    - img [ref=e2613]
+                - cell "Yearly Change" [ref=e2615]:
+                  - button "Yearly Change" [ref=e2616] [cursor=pointer]:
+                    - generic [ref=e2617]: Yearly Change
+                    - img [ref=e2618]
+                - cell "Net Change" [ref=e2620]:
+                  - button "Net Change" [ref=e2621] [cursor=pointer]:
+                    - generic [ref=e2622]: Net Change
+                    - img [ref=e2623]
+                - cell "Density (P/Km²)" [ref=e2625]:
+                  - button "Density (P/Km²)" [ref=e2626] [cursor=pointer]:
+                    - generic [ref=e2627]: Density (P/Km²)
+                    - img [ref=e2628]
+                - cell "Land Area (Km²)" [ref=e2630]:
+                  - button "Land Area (Km²)" [ref=e2631] [cursor=pointer]:
+                    - generic [ref=e2632]: Land Area (Km²)
+                    - img [ref=e2633]
+                - cell "Migrants (net)" [ref=e2635]:
+                  - button "Migrants (net)" [ref=e2636] [cursor=pointer]:
+                    - generic [ref=e2637]: Migrants (net)
+                    - img [ref=e2638]
+                - cell "Fert. Rate" [ref=e2640]:
+                  - button "Fert. Rate" [ref=e2641] [cursor=pointer]:
+                    - generic [ref=e2642]: Fert. Rate
+                    - img [ref=e2643]
+                - cell "Median Age" [ref=e2645]:
+                  - button "Median Age" [ref=e2646] [cursor=pointer]:
+                    - generic [ref=e2647]: Median Age
+                    - img [ref=e2648]
+                - cell "Urban Pop %" [ref=e2650]:
+                  - button "Urban Pop %" [ref=e2651] [cursor=pointer]:
+                    - generic [ref=e2652]: Urban Pop %
+                    - img [ref=e2653]
+                - cell "World Share" [ref=e2655]:
+                  - button "World Share" [ref=e2656] [cursor=pointer]:
+                    - generic [ref=e2657]: World Share
+                    - img [ref=e2658]
+            - rowgroup [ref=e2660]:
+              - row "1 India 1,463,865,525 0.89% 12,929,734 492 2,973,190 −495,753 1.94 28.8 37.1% 17.78%" [ref=e2661]:
+                - cell "1" [ref=e2662]
+                - cell "India" [ref=e2663]:
+                  - link "India" [ref=e2664] [cursor=pointer]:
+                    - /url: /world-population/india-population/
+                - cell "1,463,865,525" [ref=e2665]
+                - cell "0.89%" [ref=e2666]
+                - cell "12,929,734" [ref=e2667]
+                - cell "492" [ref=e2668]
+                - cell "2,973,190" [ref=e2669]
+                - cell "−495,753" [ref=e2670]
+                - cell "1.94" [ref=e2671]
+                - cell "28.8" [ref=e2672]
+                - cell "37.1%" [ref=e2673]
+                - cell "17.78%" [ref=e2674]
+              - row "2 China 1,416,096,094 −0.23% −3,225,184 151 9,388,211 −268,126 1.02 40.1 67.5% 17.20%" [ref=e2675]:
+                - cell "2" [ref=e2676]
+                - cell "China" [ref=e2677]:
+                  - link "China" [ref=e2678] [cursor=pointer]:
+                    - /url: /world-population/china-population/
+                - cell "1,416,096,094" [ref=e2679]
+                - cell "−0.23%" [ref=e2680]
+                - cell "−3,225,184" [ref=e2681]
+                - cell "151" [ref=e2682]
+                - cell "9,388,211" [ref=e2683]
+                - cell "−268,126" [ref=e2684]
+                - cell "1.02" [ref=e2685]
+                - cell "40.1" [ref=e2686]
+                - cell "67.5%" [ref=e2687]
+                - cell "17.20%" [ref=e2688]
+              - row "3 United States 347,275,807 0.54% 1,849,236 38 9,147,420 1,230,663 1.62 38.5 82.8% 4.22%" [ref=e2689]:
+                - cell "3" [ref=e2690]
+                - cell "United States" [ref=e2691]:
+                  - link "United States" [ref=e2692] [cursor=pointer]:
+                    - /url: /world-population/us-population/
+                - cell "347,275,807" [ref=e2693]
+                - cell "0.54%" [ref=e2694]
+                - cell "1,849,236" [ref=e2695]
+                - cell "38" [ref=e2696]
+                - cell "9,147,420" [ref=e2697]
+                - cell "1,230,663" [ref=e2698]
+                - cell "1.62" [ref=e2699]
+                - cell "38.5" [ref=e2700]
+                - cell "82.8%" [ref=e2701]
+                - cell "4.22%" [ref=e2702]
+              - row "4 Indonesia 285,721,236 0.79% 2,233,305 158 1,811,570 −39,509 2.1 30.4 59.6% 3.47%" [ref=e2703]:
+                - cell "4" [ref=e2704]
+                - cell "Indonesia" [ref=e2705]:
+                  - link "Indonesia" [ref=e2706] [cursor=pointer]:
+                    - /url: /world-population/indonesia-population/
+                - cell "285,721,236" [ref=e2707]
+                - cell "0.79%" [ref=e2708]
+                - cell "2,233,305" [ref=e2709]
+                - cell "158" [ref=e2710]
+                - cell "1,811,570" [ref=e2711]
+                - cell "−39,509" [ref=e2712]
+                - cell "2.1" [ref=e2713]
+                - cell "30.4" [ref=e2714]
+                - cell "59.6%" [ref=e2715]
+                - cell "3.47%" [ref=e2716]
+              - row "5 Pakistan 255,219,554 1.57% 3,950,390 331 770,880 −1,235,336 3.5 20.6 34.4% 3.10%" [ref=e2717]:
+                - cell "5" [ref=e2718]
+                - cell "Pakistan" [ref=e2719]:
+                  - link "Pakistan" [ref=e2720] [cursor=pointer]:
+                    - /url: /world-population/pakistan-population/
+                - cell "255,219,554" [ref=e2721]
+                - cell "1.57%" [ref=e2722]
+                - cell "3,950,390" [ref=e2723]
+                - cell "331" [ref=e2724]
+                - cell "770,880" [ref=e2725]
+                - cell "−1,235,336" [ref=e2726]
+                - cell "3.5" [ref=e2727]
+                - cell "20.6" [ref=e2728]
+                - cell "34.4%" [ref=e2729]
+                - cell "3.10%" [ref=e2730]
+              - row "6 Nigeria 237,527,782 2.08% 4,848,304 261 910,770 −15,258 4.3 18.1 54.9% 2.89%" [ref=e2731]:
+                - cell "6" [ref=e2732]
+                - cell "Nigeria" [ref=e2733]:
+                  - link "Nigeria" [ref=e2734] [cursor=pointer]:
+                    - /url: /world-population/nigeria-population/
+                - cell "237,527,782" [ref=e2735]
+                - cell "2.08%" [ref=e2736]
+                - cell "4,848,304" [ref=e2737]
+                - cell "261" [ref=e2738]
+                - cell "910,770" [ref=e2739]
+                - cell "−15,258" [ref=e2740]
+                - cell "4.3" [ref=e2741]
+                - cell "18.1" [ref=e2742]
+                - cell "54.9%" [ref=e2743]
+                - cell "2.89%" [ref=e2744]
+              - row "7 Brazil 212,812,405 0.38% 813,832 25 8,358,140 −217,283 1.6 34.8 91.4% 2.59%" [ref=e2745]:
+                - cell "7" [ref=e2746]
+                - cell "Brazil" [ref=e2747]:
+                  - link "Brazil" [ref=e2748] [cursor=pointer]:
+                    - /url: /world-population/brazil-population/
+                - cell "212,812,405" [ref=e2749]
+                - cell "0.38%" [ref=e2750]
+                - cell "813,832" [ref=e2751]
+                - cell "25" [ref=e2752]
+                - cell "8,358,140" [ref=e2753]
+                - cell "−217,283" [ref=e2754]
+                - cell "1.6" [ref=e2755]
+                - cell "34.8" [ref=e2756]
+                - cell "91.4%" [ref=e2757]
+                - cell "2.59%" [ref=e2758]
+              - row "8 Bangladesh 175,686,899 1.22% 2,124,535 1,350 130,170 −402,100 2.11 26 42.6% 2.13%" [ref=e2759]:
+                - cell "8" [ref=e2760]
+                - cell "Bangladesh" [ref=e2761]:
+                  - link "Bangladesh" [ref=e2762] [cursor=pointer]:
+                    - /url: /world-population/bangladesh-population/
+                - cell "175,686,899" [ref=e2763]
+                - cell "1.22%" [ref=e2764]
+                - cell "2,124,535" [ref=e2765]
+                - cell "1,350" [ref=e2766]
+                - cell "130,170" [ref=e2767]
+                - cell "−402,100" [ref=e2768]
+                - cell "2.11" [ref=e2769]
+                - cell "26" [ref=e2770]
+                - cell "42.6%" [ref=e2771]
+                - cell "2.13%" [ref=e2772]
+              - row "9 Russia 143,997,393 −0.57% −823,030 9 16,376,870 −251,822 1.47 40.3 75% 1.75%" [ref=e2773]:
+                - cell "9" [ref=e2774]
+                - cell "Russia" [ref=e2775]:
+                  - link "Russia" [ref=e2776] [cursor=pointer]:
+                    - /url: /world-population/russia-population/
+                - cell "143,997,393" [ref=e2777]
+                - cell "−0.57%" [ref=e2778]
+                - cell "−823,030" [ref=e2779]
+                - cell "9" [ref=e2780]
+                - cell "16,376,870" [ref=e2781]
+                - cell "−251,822" [ref=e2782]
+                - cell "1.47" [ref=e2783]
+                - cell "40.3" [ref=e2784]
+                - cell "75%" [ref=e2785]
+                - cell "1.75%" [ref=e2786]
+              - row "10 Ethiopia 135,472,051 2.58% 3,412,284 135 1,000,000 24,054 3.81 19.1 22.5% 1.65%" [ref=e2787]:
+                - cell "10" [ref=e2788]
+                - cell "Ethiopia" [ref=e2789]:
+                  - link "Ethiopia" [ref=e2790] [cursor=pointer]:
+                    - /url: /world-population/ethiopia-population/
+                - cell "135,472,051" [ref=e2791]
+                - cell "2.58%" [ref=e2792]
+                - cell "3,412,284" [ref=e2793]
+                - cell "135" [ref=e2794]
+                - cell "1,000,000" [ref=e2795]
+                - cell "24,054" [ref=e2796]
+                - cell "3.81" [ref=e2797]
+                - cell "19.1" [ref=e2798]
+                - cell "22.5%" [ref=e2799]
+                - cell "1.65%" [ref=e2800]
+          - generic [ref=e2802]:
+            - generic [ref=e2803]: Showing 1 to 10 of 233 entries
+            - navigation [ref=e2804]:
+              - list [ref=e2805]:
+                - listitem [ref=e2806]:
+                  - button "Page 1" [ref=e2807]: ‹
+                - listitem [ref=e2808]:
+                  - button "Page 1" [ref=e2809]: "1"
+                - listitem [ref=e2810]:
+                  - button "Page 2" [ref=e2811]: "2"
+                - listitem [ref=e2812]:
+                  - button "Page 3" [ref=e2813]: "3"
+                - listitem [ref=e2814]:
+                  - button "Page 4" [ref=e2815]: "4"
+                - listitem [ref=e2816]:
+                  - button "Page 5" [ref=e2817]: "5"
+                - listitem [ref=e2818]:
+                  - button "Page 6" [ref=e2819]: "6"
+                - listitem [ref=e2820]:
+                  - button "Page 7" [ref=e2821]: "7"
+                - listitem [ref=e2822]:
+                  - button "…" [ref=e2823]
+                - listitem [ref=e2824]:
+                  - button "Page 24" [ref=e2825]: "24"
+                - listitem [ref=e2826]:
+                  - button "Page 2" [ref=e2827]: ›
+        - paragraph [ref=e2829]:
+          - link "view full table" [ref=e2830] [cursor=pointer]:
+            - /url: /world-population/population-by-country/
+        - heading "How many people have ever lived on earth?" [level=2] [ref=e2832]
+        - button "back to top ↑" [ref=e2834] [cursor=pointer]
+        - paragraph [ref=e2835]: It was written during the 1970s that 75% of the people who had ever been born were alive at that moment. This was false.
+        - paragraph [ref=e2836]:
+          - text: Assuming that we start counting from about 50,000 B.C., the time when modern Homo sapiens appeared on the earth (and not from 700,000 B.C. when the ancestors of Homo sapiens appeared, or several million years ago when hominids were present), taking into account that all population data are a rough estimate, and assuming a constant growth rate applied to each period up to modern times,
+          - link "it has been estimated" [ref=e2837] [cursor=pointer]:
+            - /url: http://www.prb.org/Articles/2002/HowManyPeopleHaveEverLivedonEarth.aspx
+          - text: that a total of approximately
+          - strong [ref=e2838]: 106 billion people
+          - text: have been born since the dawn of the human species, making the population currently alive roughly 6% of all people who have ever lived on planet Earth.
+        - paragraph [ref=e2839]:
+          - text: Others have estimated the number of human beings who have ever lived to be anywhere from 45 billion to 125 billion, with most estimates falling into the range of
+          - strong [ref=e2840]: 90 to 110 billion
+          - text: humans.
+        - 'heading "World Population clock: sources and methodology" [level=2] [ref=e2841]'
+        - button "back to top ↑" [ref=e2843] [cursor=pointer]
+        - paragraph [ref=e2844]:
+          - text: "The world population counter displayed on Worldometer takes into consideration data from two major sources: the"
+          - strong [ref=e2845]: United Nations
+          - text: and the
+          - strong [ref=e2846]: U.S. Census Bureau
+          - text: .
+        - list [ref=e2847]:
+          - listitem [ref=e2848]:
+            - paragraph [ref=e2849]:
+              - text: The
+              - link "United Nations Population Division" [ref=e2850] [cursor=pointer]:
+                - /url: https://www.un.org/development/desa/pd/
+              - text: of the Department of Economic and Social Affairs every two years calculates, updates, and publishes estimates of total population in its
+              - emphasis [ref=e2851]: World Population Prospects
+              - text: series. These population estimates and projections provide the standard and consistent set of population figures that are used throughout the United Nations system.
+            - paragraph [ref=e2852]:
+              - text: The
+              - 'link "World Population Prospect: the 2024 Revision" [ref=e2853] [cursor=pointer]':
+                - /url: https://esa.un.org/unpd/wpp/
+              - text: provides the most recent data available (released in July of 2024). Estimates and projected world population and country specific populations are given from 1950 through 2100 and are released every two years. Worldometer, as it is common practice, utilizes the
+              - strong [ref=e2854]: medium fertility
+              - text: estimates.
+            - paragraph [ref=e2855]: Data underlying the population estimates are national and sub national census data and data on births, deaths, and migrants available from national sources and publications, as well as from questionnaires. For all countries, census and registration data are evaluated and, if necessary, adjusted for incompleteness by the Population Division as part of its preparations of the official United Nations population estimates and projections.
+          - listitem [ref=e2856]:
+            - paragraph [ref=e2857]:
+              - text: The
+              - link "International Programs Center" [ref=e2858] [cursor=pointer]:
+                - /url: https://www.census.gov/programs-surveys/international-programs/about/idb.html
+              - text: at the U.S. Census Bureau, Population Division also develops estimates and projections based on analysis of available data (based on census, survey, and administrative information) on population, fertility, mortality, and migration for each country or area of the world. According to the U.S. Census Bureau, world population reached 7 billion on March 12, 2012.
+            - paragraph [ref=e2859]:
+              - text: For most countries adjustment of the data is necessary to correct for errors, omissions, and inconsistencies in the data. Finally, since most recent data for a single country is often two years old on average, the
+              - strong [ref=e2860]: current world population figure is necessarily a projection of past data based on assumed trends
+              - text: . As new data become available, assumptions and data are reevaluated and past conclusions and current figures may be modified.
+            - paragraph [ref=e2861]:
+              - text: For information about how these estimates and projections are made by the U.S. Census Bureau, see the
+              - link "Population Estimates and Projections Methodology" [ref=e2862] [cursor=pointer]:
+                - /url: https://www.census.gov/programs-surveys/international-programs/about/idb.html#par_textimage_1
+              - text: .
+        - heading "Why Worldometer's Population Clock is the most accurate" [level=2] [ref=e2863]
+        - button "back to top ↑" [ref=e2865] [cursor=pointer]
+        - paragraph [ref=e2866]: The above world population clock is based on the latest estimates released in July of 2024 by the United Nations. It will show the same number wherever you are in the world and whatever time you set on your PC.
+        - paragraph [ref=e2867]: Visitors around the world visiting a PC clock based counter, instead, will see different numbers depending on where they are located. This is the case with other world population clocks - such as the one hosted on a United Nations website, reaching 8 billion in 24 different instances (one per hour) on November 15, 2022, when each local time zone reached 12:10:08. Similarly, in 2011, the clocks on a UN website and on National Geographic - showed 7 billion whenever the visitor's locally set PC clocks reached 4:21:10 AM on October 31, 2011.
+        - paragraph [ref=e2868]: Obviously, the UN data is based on estimates and can't be 100% accurate, so in all honesty nobody can possibly say with any degree of certainty on which day world population reached 7 billion (or any other exact number), let alone at what time. But once an estimate is made (based on the best data and analysis available), the world population clock should be showing the same number at any given time anywhere around the world.
+    - generic [ref=e2869]:
+      - generic [ref=e2871]:
+        - iframe [ref=e2872]:
+          - table [ref=f1e3]:
+            - rowgroup [ref=f1e4]:
+              - row [ref=f1e5]:
+                - cell [ref=f1e6]:
+                  - link [ref=f1e7] [cursor=pointer]:
+                    - /url: https://legal.yahoo.com/us/en/yahoo/privacy/adinfo/index.html
+              - row "advertisement" [ref=f1e8]:
+                - cell "advertisement" [ref=f1e9]:
+                  - insertion [ref=f1e10]:
+                    - iframe [ref=f1e11]:
+                      
+        - link "freestar" [ref=e2875] [cursor=pointer]:
+          - /url: https://ads.freestar.com/?utm_campaign=branding&utm_medium=display&utm_source=worldometers.info&utm_content=worldometers_bottom
+          - img "freestar" [ref=e2876]
+      - contentinfo [ref=e2877]:
+        - navigation [ref=e2878]:
+          - link "Worldometer Logo" [ref=e2879] [cursor=pointer]:
+            - /url: /
+            - img "Worldometer Logo" [ref=e2880]
+          - generic [ref=e2881]:
+            - link "about" [ref=e2882] [cursor=pointer]:
+              - /url: /about/
+            - text: "|"
+            - link "faq" [ref=e2883] [cursor=pointer]:
+              - /url: /faq/
+            - text: "|"
+            - link "languages" [ref=e2884] [cursor=pointer]:
+              - /url: /languages/
+            - text: "|"
+            - link "contact" [ref=e2885] [cursor=pointer]:
+              - /url: /contact/
+        - generic [ref=e2886]:
+          - text: © Copyright Worldometers.info - All rights reserved -
+          - link "Disclaimer & Privacy Policy" [ref=e2887] [cursor=pointer]:
+            - /url: /disclaimer/
+  - generic:
+    - generic:
+      - iframe [ref=e2888]:
+        
+      - generic [ref=e2892]:
+        - iframe [ref=e2898]:
+          
+        - generic:
+          - generic:
+            - generic:
+              - img [ref=e2904] [cursor=pointer]
+              - img [ref=e2908] [cursor=pointer]
+              - img [ref=e2912] [cursor=pointer]
+            - img [ref=e2915]
+```
